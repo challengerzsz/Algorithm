@@ -335,35 +335,162 @@ public class AlgorithmTest {
 //
 //    }
 
-    public void pre(TreeNode treeNode) {
-        if (treeNode != null) {
-            System.out.println(treeNode.val);
-            pre(treeNode.left);
-            pre(treeNode.right);
-        }
+
+    //左旋字符串
+    public String LeftRotateString(String str,int n) {
+
+        if (n > str.length()) return "";
+        String temp = str.substring(0, n);
+
+        return str.substring(n, str.length()) + temp;
     }
 
-    int count = 0;
-    public TreeNode create(int a[], TreeNode root, int i) {
-        if (i < a.length) {
-            if (a[i] == 0) {
-                root = null;
+
+    //统计一个数字在排序数组的次数
+    public int GetNumberOfK(int [] array , int k) {
+
+        int count = 0;
+        for (int i = 0; i < array.length; i++) {
+            if (array[i] == k) {
+                count++;
+                if (i + 1 < array.length && array[i + 1] != k) {
+                    break;
+                }
             }
-        } else {
-            TreeNode lchild = new TreeNode();
-            TreeNode rchild = new TreeNode();
-            root.val = a[i];
-            root.left = create(a, lchild, ++count);
-            root.right = create(a, rchild, ++count);
+        }
+        return count;
+    }
+
+    //重建二叉树
+    public TreeNode reConstructBinaryTree(int [] pre,int [] in) {
+        TreeNode root = reCreateTree(pre, 0, pre.length -1, in, 0, in.length - 1);
+        return root;
+    }
+    public TreeNode reCreateTree(int []pre, int startP, int endP, int []in, int startI, int endI) {
+
+        if (startP > endP  || startI > endI) {
+            return null;
         }
 
+        TreeNode root = new TreeNode(pre[startP]);
+
+        for (int i = startI; i <= endI; i++) {
+            if (pre[startP] == in[i]) {
+                //中序向左递归
+                root.left = reCreateTree(pre, startP + 1, startP + i, in, startI, i - 1);
+                //中序向右递归
+                root.right = reCreateTree(pre, i - startI + startP + 1, endP, in, i + 1, endI);
+            }
+        }
         return root;
     }
 
+
+    //逆序链表
+    public ListNode reverseList(ListNode head) {
+        ListNode p = null;
+        while (head != null) {
+            ListNode listNode = new ListNode(head.val);
+            listNode.next = p;
+            p = listNode;
+            head = head.next;
+        }
+        return p;
+    }
+
+    //镜像二叉树
+    public void Mirror(TreeNode root) {
+        if (root == null) return;
+        Mirror(root.left);
+        Mirror(root.right);
+        TreeNode temp;
+        temp = root.left;
+        root.left = root.right;
+        root.right = temp;
+    }
+
+    //数值二进制中1的个数
+    public int NumberOf1(int n) {
+        int count = 0;
+        char [] ans = Integer.toBinaryString(n).toCharArray();
+        for (char temp :ans) {
+            if (temp == '1') count++;
+        }
+        return count;
+    }
+
+    //奇数位于数组前半部分，偶数位于后半部分
+    public void reOrderArray(int [] array) {
+        for (int i = 0; i < array.length; i++) {
+            for (int j = 0; j < array.length - i - 1; j++) {
+                if (array[j] % 2 == 0 && array[j + 1] % 2 == 1) {
+                    int temp = array[j];
+                    array[j] = array[j + 1];
+                    array[j + 1] = temp;
+                }
+            }
+        }
+    }
+
+    //链表第K结点
+    public ListNode FindKthToTail(ListNode head,int k) {
+        int count = 0;
+        if (head == null) return null;
+        ListNode p = head;
+        while (p != null) {
+            p = p.next;
+            count++;
+        }
+
+        if (count < k) return null;
+
+        ListNode p1 = head;
+        for (int i = 0; i < count - k; i++) {
+            p1 = p1.next;
+        }
+        return p;
+
+    }
+
+    //合并两个链表使之成为单调不减规则
+//    public ListNode Merge(ListNode list1,ListNode list2) {
+//        ListNode newHead = null;
+//        if (list1 == null && list2 == null) return null;
+//        if (list1 == null) return list2;
+//        if (list2 == null) return list1;
+//        ListNode p = list1;
+//        ListNode q = list2;
+//        ListNode t = newHead;
+//        int count = 0;
+//        while (p != null && q != null) {
+//            if (p.val < q.val) {
+//                if (count < 1) {
+//                    newHead = p;
+//                    newHead.
+//                }
+//            }
+//        }
+//    }
+
+
     public static void main(String[] args) {
 
-        AlgorithmTest find = new AlgorithmTest();
 
+//        HashMap<String,String> hashMap = new HashMap<>();
+//
+//        AlgorithmTest find = new AlgorithmTest();
+//
+//        int [] array = {1,2,3,3,3,3};
+//        System.out.println(find.GetNumberOfK(array, 3));
+
+        Scanner scanner = new Scanner(System.in);
+        while (true) {
+            int i = scanner.nextInt();
+            System.out.println(Integer.toBinaryString(i).toString());
+        }
+
+//        String str = "1234567";
+//        System.out.println(find.LeftRotateString(str, 3));
 
 //        int a[][] = {{1,2,8,9}, {4,7,10,3}};
 //        System.out.println(find.Find(7,a));
@@ -404,32 +531,16 @@ public class AlgorithmTest {
     }
 }
 
+
 class TreeNode {
-    int val;
-    TreeNode left;
-    TreeNode right;
+    int val = 0;
+    TreeNode left = null;
+    TreeNode right = null;
 
-    public int getVal() {
-        return val;
-    }
-
-    public void setVal(int val) {
+    public TreeNode(int val) {
         this.val = val;
+
     }
 
-    public TreeNode getLeft() {
-        return left;
-    }
-
-    public void setLeft(TreeNode left) {
-        this.left = left;
-    }
-
-    public TreeNode getRight() {
-        return right;
-    }
-
-    public void setRight(TreeNode right) {
-        this.right = right;
-    }
 }
+
