@@ -74,4 +74,14 @@ public class TreeSolution {
         return false;
     }
 
+    //计算树的高度
+    //递归
+    public int TreeDepth(TreeNode root) {
+        if (root == null) return 0;
+        int r = TreeDepth(root.right);
+        int l = TreeDepth(root.left);
+        if (r > l) return (r + 1);
+        return (l + 1);
+    }
+
 }
