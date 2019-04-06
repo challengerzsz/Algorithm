@@ -1,5 +1,7 @@
 package com.bsb.tree;
 
+import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.Scanner;
 import java.util.Stack;
 
@@ -16,6 +18,7 @@ class TreeNode {
 
 public class TreeSolution {
     private Scanner scanner = new Scanner(System.in);
+
     //    public void createTree(TreeNode treeNode) {
 //        int node;
 //        node = this.scanner.nextInt();
@@ -83,5 +86,147 @@ public class TreeSolution {
         if (r > l) return (r + 1);
         return (l + 1);
     }
+
+    // 二叉树层次遍历
+    public ArrayList<Integer> PrintFromTopToBottom(TreeNode root) {
+
+
+
+        ArrayList<Integer> treeNodeArrayList = new ArrayList<>();
+        ArrayList<TreeNode> queue = new ArrayList<>();
+        if (root == null) {
+            return treeNodeArrayList;
+        }
+        queue.add(root);
+        while (queue.size() != 0) {
+            TreeNode node = queue.remove(0);
+            if (node.left != null) {
+                queue.add(node.left);
+            }
+
+            if (node.right != null) {
+                queue.add(node.right);
+            }
+            treeNodeArrayList.add(node.val);
+        }
+
+        return treeNodeArrayList;
+    }
+
+    // 判断一个序列是不是二叉搜索树的后续遍历的结果
+    public boolean VerifySquenceOfBST(int [] sequence) {
+
+        if (sequence == null || sequence.length == 0) {
+            return false;
+        }
+        int root = sequence[sequence.length - 1];
+        int i = 0;
+        for (; i < sequence.length - 1; ++i) {
+            if (sequence[i] > root) {
+                break;
+            }
+        }
+
+        int j = i;
+        for (; j < sequence.length - 1; ++j) {
+            if (sequence[j] < root) {
+                return false;
+            }
+        }
+
+        boolean left = true;
+        if (i > 0) {
+            int[] newSequence = Arrays.copyOfRange(sequence, 0, i);
+            left = VerifySquenceOfBST(newSequence);
+        }
+
+        boolean right = true;
+        if (i < sequence.length - 1) {
+            int[] newSequence = Arrays.copyOfRange(sequence, i, sequence.length - 1);
+            right = VerifySquenceOfBST(newSequence);
+        }
+
+        return (right && left);
+
+    }
+
+    public static void main(String[] args) {
+        int[] array = {7,4,5,6};
+        System.out.println(new TreeSolution().VerifySquenceOfBST(array));
+    }
+
+    public ArrayList<ArrayList<Integer>> FindPath(TreeNode root,int target) {
+        if (root == null) {
+            return null;
+        }
+
+        ArrayList<TreeNode> arrayList = new ArrayList<>();
+        ArrayList<ArrayList<Integer>> result = new ArrayList<>();
+        int num = 1;
+        arrayList.add(root);
+        int sum = root.val;
+        while (true) {
+
+        }
+    }
+
+    private ArrayList<Integer> transferToArrayInt(ArrayList<TreeNode> treeNodes) {
+
+        ArrayList<Integer> arrayList = new ArrayList<>();
+
+        for (TreeNode node : treeNodes) {
+            arrayList.add(node.val);
+        }
+
+        return arrayList;
+    }
+
+    public TreeNode Convert(TreeNode pRootOfTree) {
+        if (pRootOfTree == null) {
+            return null;
+        }
+        TreeNode node = pRootOfTree;
+        Stack<TreeNode> stack = new Stack<>();
+        ArrayList<TreeNode> arrayList = new ArrayList<>();
+        while (node != null || !stack.isEmpty()) {
+            while (node != null) {
+                stack.push(node);
+                node = node.left;
+            }
+
+            if (!stack.isEmpty()) {
+                node = stack.pop();
+                arrayList.add(node);
+                node = node.right;
+            }
+
+        }
+
+        if (arrayList.size() == 1) {
+            pRootOfTree.left = pRootOfTree;
+            pRootOfTree.right = pRootOfTree;
+        }
+
+        for (int i = 0; i < arrayList.size(); i++) {
+
+
+            if (i == 0) {
+                arrayList.get(i).left = null;
+                arrayList.get(i).right = arrayList.get(i + 1);
+                continue;
+            }
+            if (i == arrayList.size() - 1) {
+                arrayList.get(i).right = null;
+                arrayList.get(i).left = arrayList.get(i - 1);
+                continue;
+            }
+
+            arrayList.get(i).right = arrayList.get(i + 1);
+            arrayList.get(i).left = arrayList.get(i - 1);
+        }
+
+        return arrayList.get(0);
+    }
+
 
 }

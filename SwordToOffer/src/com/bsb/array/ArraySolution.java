@@ -1,7 +1,6 @@
 package com.bsb.array;
 
 import java.util.Arrays;
-import java.util.HashMap;
 
 public class ArraySolution {
 
@@ -81,5 +80,30 @@ public class ArraySolution {
                 num1[0] = i;
             }
         }
+    }
+
+    // 连续子数组最大和
+    public int FindGreatestSumOfSubArray(int[] array) {
+
+        if (array == null || array.length == 0) {
+            return 0;
+        }
+
+        int max = 0;
+        int sum = 0;
+        for (int i = 0; i <= array.length - 1; i++) {
+            for (int j = i; j <= array.length - 1; j++) {
+                sum = 0;
+                for (int k = i; k <= j; k++) {
+                    sum += array[k];
+                }
+
+                if (sum > max) {
+                    max = sum;
+                }
+            }
+        }
+
+        return max;
     }
 }
