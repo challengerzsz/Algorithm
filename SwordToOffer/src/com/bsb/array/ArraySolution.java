@@ -1,6 +1,6 @@
 package com.bsb.array;
 
-import java.util.Arrays;
+import java.util.*;
 
 public class ArraySolution {
 
@@ -105,5 +105,59 @@ public class ArraySolution {
         }
 
         return max;
+    }
+
+    // 数组中出现超过一半的数字
+    public int MoreThanHalfNum_Solution(int [] array) {
+        if (array.length == 0) {
+            return 0;
+        }
+
+        HashMap<Integer, Integer> hashMap = new HashMap<>();
+        Integer count = 0;
+        for (int i = 0; i < array.length; i++) {
+             count = hashMap.get(array[i]);
+             if (count == null) {
+                 hashMap.put(array[i], 1);
+                 continue;
+             }
+             count++;
+             hashMap.put(array[i], count);
+        }
+
+        int[] max = {0, 0};
+        Set<Integer> set = hashMap.keySet();
+        for (Integer integer : set) {
+            count = hashMap.get(integer);
+            if (count > max[0]) {
+                max[0] = count;
+                max[1] = integer;
+            }
+        }
+        if (max[0] > array.length / 2) {
+            return max[1];
+        }
+
+        return 0;
+    }
+    // 最小的k个数
+    public ArrayList<Integer> GetLeastNumbers_Solution(int [] input, int k) {
+
+        if (input.length < 0) return null;
+        if (k > input.length) return null;
+        ArrayList arrayList = new ArrayList();
+        Arrays.sort(input);
+        for (int i = 0; i < k; i++) {
+            arrayList.add(input[i]);
+        }
+
+        return arrayList;
+
+    }
+
+    public static void main(String[] args) {
+        int[] a = {4,5,1,6,2,7,3,8};
+//        System.out.println(new ArraySolution().MoreThanHalfNum_Solution(a));
+        System.out.println(new ArraySolution().GetLeastNumbers_Solution(a, 10));
     }
 }
