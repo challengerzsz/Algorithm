@@ -5,6 +5,8 @@ import java.util.*;
 
 public class ArraySolution {
 
+    private LinkedHashMap<Character,Integer> linkedHashMap = new LinkedHashMap<>();
+
     //二维数组查找
     public boolean Find(int target, int[][] array) {
         boolean result = false;
@@ -323,6 +325,34 @@ public class ArraySolution {
             num1 = temp;
         }
         return num1;
+    }
+
+    //Insert one char from stringstream
+    public void Insert(char ch) {
+        Integer count = linkedHashMap.get(ch);
+        if (count == null) {
+            count = 1;
+            linkedHashMap.put(ch, count);
+        }
+        if (count != 0) {
+            count++;
+            linkedHashMap.put(ch, count);
+        }
+    }
+
+    //return the first appearence once char in current stringstream
+    public char FirstAppearingOnce() {
+        char first = ' ';
+        Iterator iterator = linkedHashMap.entrySet().iterator();
+        while (iterator.hasNext()) {
+            Map.Entry entry = (Map.Entry) iterator.next();
+            Integer count = (Integer) entry.getValue();
+            if (count == 1) {
+                first = (char) entry.getKey();
+            }
+        }
+
+        return first;
     }
 
     public static void main(String[] args) {
