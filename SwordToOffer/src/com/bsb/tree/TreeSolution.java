@@ -36,13 +36,14 @@ public class TreeSolution {
 //    }
 
     //重建二叉树
-    public TreeNode reConstructBinaryTree(int [] pre, int [] in) {
-        TreeNode root = reCreateTree(pre, 0, pre.length -1, in, 0, in.length - 1);
+    public TreeNode reConstructBinaryTree(int[] pre, int[] in) {
+        TreeNode root = reCreateTree(pre, 0, pre.length - 1, in, 0, in.length - 1);
         return root;
     }
-    public TreeNode reCreateTree(int []pre, int startP, int endP, int []in, int startI, int endI) {
 
-        if (startP > endP  || startI > endI) {
+    public TreeNode reCreateTree(int[] pre, int startP, int endP, int[] in, int startI, int endI) {
+
+        if (startP > endP || startI > endI) {
             return null;
         }
 
@@ -71,7 +72,7 @@ public class TreeSolution {
     }
 
     //判断是否为子树
-    public boolean HasSubtree(TreeNode root1,TreeNode root2) {
+    public boolean HasSubtree(TreeNode root1, TreeNode root2) {
         Stack<TreeNode> stack = new Stack<>();
         if (root2 == null) return false;
         return false;
@@ -89,7 +90,6 @@ public class TreeSolution {
 
     // 二叉树层次遍历
     public ArrayList<Integer> PrintFromTopToBottom(TreeNode root) {
-
 
 
         ArrayList<Integer> treeNodeArrayList = new ArrayList<>();
@@ -114,7 +114,7 @@ public class TreeSolution {
     }
 
     // 判断一个序列是不是二叉搜索树的后续遍历的结果
-    public boolean VerifySquenceOfBST(int [] sequence) {
+    public boolean VerifySquenceOfBST(int[] sequence) {
 
         if (sequence == null || sequence.length == 0) {
             return false;
@@ -151,11 +151,11 @@ public class TreeSolution {
     }
 
     public static void main(String[] args) {
-        int[] array = {7,4,5,6};
+        int[] array = {7, 4, 5, 6};
         System.out.println(new TreeSolution().VerifySquenceOfBST(array));
     }
 
-    public ArrayList<ArrayList<Integer>> FindPath(TreeNode root,int target) {
+    public ArrayList<ArrayList<Integer>> FindPath(TreeNode root, int target) {
         if (root == null) {
             return null;
         }
@@ -227,6 +227,5 @@ public class TreeSolution {
 
         return arrayList.get(0);
     }
-
-
+    
 }
