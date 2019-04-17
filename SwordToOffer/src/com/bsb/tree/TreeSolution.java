@@ -150,10 +150,7 @@ public class TreeSolution {
 
     }
 
-    public static void main(String[] args) {
-        int[] array = {7, 4, 5, 6};
-        System.out.println(new TreeSolution().VerifySquenceOfBST(array));
-    }
+
 
     public ArrayList<ArrayList<Integer>> FindPath(TreeNode root, int target) {
         if (root == null) {
@@ -209,7 +206,6 @@ public class TreeSolution {
 
         for (int i = 0; i < arrayList.size(); i++) {
 
-
             if (i == 0) {
                 arrayList.get(i).left = null;
                 arrayList.get(i).right = arrayList.get(i + 1);
@@ -226,6 +222,34 @@ public class TreeSolution {
         }
 
         return arrayList.get(0);
+
     }
-    
+
+    public int ifQueue(int n, int[] a) {
+        int count = 0;
+        int[] b = new int[a.length];
+        for (int i = 1; i <= n; i++) {
+            a[i - 1] = i;
+        }
+
+        for (int i = 0; i < a.length; i++) {
+            if (a[i] != b[i]) {
+                count++;
+            }
+        }
+        return count;
+    }
+
+    public static void main(String[] args) {
+//        int[] array = {7, 4, 5, 6};
+//        System.out.println(new TreeSolution().VerifySquenceOfBST(array));
+
+//        System.out.println(new TreeSolution().reverse(1230));
+
+        int[] a = {5,2,1,3,4};
+        System.out.println(new TreeSolution().ifQueue(5, a));
+    }
+
+
+
 }
