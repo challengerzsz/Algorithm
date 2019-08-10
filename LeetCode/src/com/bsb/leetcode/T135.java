@@ -34,6 +34,9 @@ public class T135 {
     public int fbnq(int n) {
         int i = 1, j = 1;
         int ans = 0;
+        if (n == 1 || n == 2) {
+            return 1;
+        }
         for (int t = 1; t < n - 1; t++) {
             ans = i + j;
             i = j;
