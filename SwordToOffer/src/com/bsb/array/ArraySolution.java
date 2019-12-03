@@ -5,7 +5,7 @@ import java.util.*;
 
 public class ArraySolution {
 
-    private LinkedHashMap<Character,Integer> linkedHashMap = new LinkedHashMap<>();
+    private LinkedHashMap<Character, Integer> linkedHashMap = new LinkedHashMap<>();
 
     //二维数组查找
     public boolean Find(int target, int[][] array) {
@@ -353,6 +353,33 @@ public class ArraySolution {
         }
 
         return first;
+    }
+
+    // 顺时针打印矩阵
+    public ArrayList<Integer> printMatrix(int[][] matrix) {
+        int lie = matrix[0].length;
+        int hang = matrix.length;
+        ArrayList<Integer> res = new ArrayList<>();
+        if (hang == 0 || lie == 0) return res;
+
+        int left = 0, top = 0, right = lie - 1, bottom = hang - 1;
+        while (left <= right && top <= bottom) {
+            // left to right
+            for (int i = left; i <= right; ++i) res.add(matrix[top][i]);
+            // top to bottom
+            for (int i = top + 1; i <= bottom; ++i) res.add(matrix[i][right]);
+            // right to left
+            if (top != bottom)
+                for (int i = right - 1; i >= left; --i) res.add(matrix[bottom][i]);
+            // bottom to top
+            if (left != right)
+                for (int i = bottom - 1; i > top; --i) res.add(matrix[i][left]);
+            left++;
+            top++;
+            right--;
+            bottom--;
+        }
+        return res;
     }
 
     public static void main(String[] args) {

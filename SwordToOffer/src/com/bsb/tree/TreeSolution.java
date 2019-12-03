@@ -7,12 +7,17 @@ import java.util.Stack;
 
 class TreeNode {
     int val = 0;
-    TreeNode left = null;
-    TreeNode right = null;
-
-    public TreeNode(int val) {
+    TreeNode left;
+    TreeNode right;
+    public TreeNode() {}
+    public TreeNode(int val){
         this.val = val;
+    }
 
+    public TreeNode(int val, TreeNode left, TreeNode right) {
+        this.val = val;
+        this.left = left;
+        this.right = right;
     }
 }
 
@@ -150,34 +155,6 @@ public class TreeSolution {
 
     }
 
-
-
-    public ArrayList<ArrayList<Integer>> FindPath(TreeNode root, int target) {
-        if (root == null) {
-            return null;
-        }
-
-        ArrayList<TreeNode> arrayList = new ArrayList<>();
-        ArrayList<ArrayList<Integer>> result = new ArrayList<>();
-        int num = 1;
-        arrayList.add(root);
-        int sum = root.val;
-        while (true) {
-
-        }
-    }
-
-    private ArrayList<Integer> transferToArrayInt(ArrayList<TreeNode> treeNodes) {
-
-        ArrayList<Integer> arrayList = new ArrayList<>();
-
-        for (TreeNode node : treeNodes) {
-            arrayList.add(node.val);
-        }
-
-        return arrayList;
-    }
-
     public TreeNode Convert(TreeNode pRootOfTree) {
         if (pRootOfTree == null) {
             return null;
@@ -240,16 +217,60 @@ public class TreeSolution {
         return count;
     }
 
+    // 二叉树中和为target的路径
+    private ArrayList<ArrayList<Integer>> res = new ArrayList<>();
+    private ArrayList<Integer> list = new ArrayList<>();
+
+    public ArrayList<ArrayList<Integer>> FindPath(TreeNode root, int target) {
+        if (root == null) return res;
+
+        list.add(root.val);
+        target = target - root.val;
+        if (target == 0 && root.left == null && root.right == null) res.add(new ArrayList<>(list));
+        FindPath(root.left, target);
+        FindPath(root.right, target);
+        list.remove(list.size() - 1);
+        return res;
+    }
+
     public static void main(String[] args) {
 //        int[] array = {7, 4, 5, 6};
 //        System.out.println(new TreeSolution().VerifySquenceOfBST(array));
 
 //        System.out.println(new TreeSolution().reverse(1230));
 
-        int[] a = {5,2,1,3,4};
-        System.out.println(new TreeSolution().ifQueue(5, a));
-    }
+//        int[] a = {5, 2, 1, 3, 4};
+//        System.out.println(new TreeSolution().ifQueue(5, a));
+        TreeNode root = new TreeNode(1);
+        TreeNode node = new TreeNode(5);
+        TreeNode node1 = new TreeNode(5);
 
+        TreeNode node2 = new TreeNode(2);
+        TreeNode node3 = new TreeNode(5);
+        TreeNode node4 = new TreeNode(3);
+        TreeNode node5 = new TreeNode(1);
+        TreeNode node6 = new TreeNode(4);
+
+//                   root(1)
+//             /              \
+//           node1(5)         node(5)
+//           /   \              /     \
+//      node2(2) node3(5) node5(1)   node6(4)
+//        /
+//     node4(3)
+        root.left = node1;
+        root.right = node;
+        node1.left = node2;
+        node1.right = node3;
+        node2.left = node4;
+
+        node.left = node5;
+        node.right = node6;
+
+        new TreeSolution().FindPath(root, 10);
+
+
+    }
 
 
 }

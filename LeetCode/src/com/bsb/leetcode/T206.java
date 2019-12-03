@@ -7,17 +7,13 @@ package com.bsb.leetcode;
 public class T206 {
 
     public ListNode reverseList(ListNode head) {
-
-        if (head == null) {
-            return null;
-        }
         ListNode p = head, q = head.next;
         head = null;
         while (p != null) {
             p.next = head;
             head = p;
             p = q;
-            q = q.next;
+            if (q != null) q = q.next;
         }
         return head;
     }
