@@ -1,6 +1,7 @@
 package com.bsb.linkedList;
 
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.Stack;
 
 class ListNode {
@@ -9,6 +10,16 @@ class ListNode {
 
     ListNode(int val) {
         this.val = val;
+    }
+}
+
+class RandomListNode {
+    int label;
+    RandomListNode next = null;
+    RandomListNode random = null;
+
+    RandomListNode(int label) {
+        this.label = label;
     }
 }
 
@@ -44,7 +55,7 @@ public class LinkedListSolution {
 
 
     //链表第K结点
-    public ListNode FindKthToTail(ListNode head,int k) {
+    public ListNode FindKthToTail(ListNode head, int k) {
         int count = 0;
         if (head == null) return null;
         ListNode p = head;
@@ -64,7 +75,7 @@ public class LinkedListSolution {
     }
 
     //合并两个链表使之成为单调不减规则
-    public ListNode Merge(ListNode list1,ListNode list2) {
+    public ListNode Merge(ListNode list1, ListNode list2) {
         ListNode head = null;
         if (list1 == null) return list2;
         if (list2 == null) return list1;
@@ -99,6 +110,34 @@ public class LinkedListSolution {
 
         return head;
     }
+
+    // 复杂链表克隆
+    public RandomListNode Clone(RandomListNode pHead) {
+
+        if (pHead == null) {
+            return pHead;
+        }
+        RandomListNode p1 = pHead;
+        RandomListNode p2 = pHead;
+        HashMap<RandomListNode, RandomListNode> map = new HashMap<>();
+        while (p1 != null) {
+            map.put(p1, new RandomListNode(p1.label));
+            p1 = p1.next;
+        }
+
+        while (p2 != null) {
+            if (p2.next != null) {
+                // 直接给map中的value存的新node对象复制next节点(同样也为新创建的node)
+                map.get(p2).next = map.get(p2.next);
+            } else {
+                map.get(p2).next = null;
+            }
+            map.get(p2).random = map.get(p2.random);
+            p2 = p2.next;
+        }
+        return map.get(pHead);
+    }
+
 
 
 }

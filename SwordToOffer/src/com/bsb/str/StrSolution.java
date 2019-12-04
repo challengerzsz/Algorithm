@@ -1,5 +1,9 @@
 package com.bsb.str;
 
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.HashSet;
+
 public class StrSolution {
     //字符串替换
     public String replaceSpace(StringBuffer str) {
@@ -16,6 +20,39 @@ public class StrSolution {
 
         return str.substring(n, str.length()) + temp;
     }
+
+    // 全排列
+    public ArrayList<String> Permutation(String str) {
+        ArrayList<String> res = new ArrayList<>();
+        if (str == null || str.length() == 0) {
+            return res;
+        }
+        HashSet<String> set = new HashSet<>();
+
+        fun(set, str.toCharArray(), 0);
+        res.addAll(set);
+        Collections.sort(res);
+        return res;
+    }
+    private void fun(HashSet<String> re, char[] str, int k) {
+        if (k == str.length) {
+            re.add(new String(str));
+            return;
+        }
+        for (int i = k; i < str.length; i++) {
+            swap(str, i, k);
+            fun(re, str, k + 1);
+            swap(str, i, k);
+        }
+    }
+    private void swap(char[] str, int i, int j) {
+        if (i != j) {
+            char t = str[i];
+            str[i] = str[j];
+            str[j] = t;
+        }
+    }
+
 
     public static void main(String[] args) {
 //        String str1 = new String("1") + new String("2");
