@@ -68,13 +68,21 @@ public class StrSolution {
 //        String tt = "1212";
 
 
-        String str = new String("1") + new String("122");
-        System.out.println(str == str.intern());
+//        String str = new String("1") + new String("122");
+//        System.out.println(str == str.intern());
 
 
 //        String str1 = new String("123");
 //        String str = "123";
 //        System.out.println(str1.intern() == str1);
+
+//        int i = 100;
+//        System.out.println(i % 10);
+//        System.out.println(i);
+
+        for (int i = 0; i < 100; i++) {
+
+        }
     }
 
 }

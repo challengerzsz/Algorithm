@@ -382,6 +382,68 @@ public class ArraySolution {
         return res;
     }
 
+    // 把数组排成最小的数
+    public String PrintMinNumber(int [] numbers) {
+        // 借助ArrayList提供的排序
+        ArrayList<String> list = new ArrayList<>();
+        for (int number : numbers) {
+            list.add("" + number);
+        }
+        Collections.sort(list, (o1, o2) -> {
+            int i = 0, j = 0;
+            if (i == o1.length()) i -= o1.length();
+            if (j == o2.length()) j -= o2.length();
+            // 位数小的数字需要循环和长位数数字比较
+            // 例如 1234 123 => 1231234
+            while (i < o1.length() || j < o2.length()) {
+                if (o1.charAt(i) > o2.charAt(j)) return 1;
+                else if (o1.charAt(i) < o2.charAt(j)) return -1;
+                i++;
+                j++;
+            }
+            return 0;
+        });
+
+        StringBuilder stringBuilder = new StringBuilder();
+        for (String number : list) {
+            stringBuilder.append(number);
+        }
+        return stringBuilder.toString();
+    }
+
+    // 最大连续子序列 动态规划解法
+    public int FindGreatestSumOfSubArrayDp(int[] array) {
+        int[] dp = new int[array.length];
+        int max = array[0];
+        dp[0] = array[0];
+        int sum = 0;
+        for (int i = 1; i < array.length; i++) {
+            sum = dp[i - 1] + array[i];
+            if (sum >= array[i]) {
+                dp[i] = dp[i - 1] + array[i];
+                if (sum > max) max = sum;
+            } else if (sum < array[i]) {
+                dp[i] = array[i];
+                if (array[i] > max) max = array[i];
+            }
+        }
+
+        return max;
+    }
+    public int maxSubArray(int[] array) {
+        int sum = array[0];
+        int max = array[0];
+        for (int i = 1; i < array.length; i++) {
+            if (sum < 0 || sum + array[i] < 0) {
+                sum = array[i];
+            } else {
+                sum += array[i];
+            }
+            max = Math.max(sum, max);
+        }
+        return max;
+    }
+
     public static void main(String[] args) {
 //        int[] a = {0, 3, 2, 6, 4};
 ////        System.out.println(new ArraySolution().MoreThanHalfNum_Solution(a));
