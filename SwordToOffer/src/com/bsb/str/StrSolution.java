@@ -3,6 +3,7 @@ package com.bsb.str;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.HashSet;
+import java.util.LinkedHashMap;
 
 public class StrSolution {
     //字符串替换
@@ -53,8 +54,22 @@ public class StrSolution {
         }
     }
 
+    // 第一次只出现一次的字符
+    public int FirstNotRepeatingChar(String str) {
+        int[] counter = new int[256];
+        for (int i = 0; i < str.length(); i++) {
+            counter[str.charAt(i)]++;
+        }
+        for(int i=0; i < str.length();i++) {
+            if(counter[str.charAt(i)]==1) return i;
+        }
+        return -1;
+    }
+
 
     public static void main(String[] args) {
+
+        System.out.println(new StrSolution().FirstNotRepeatingChar("google"));
 //        String str1 = new String("1") + new String("2");
 //        String str2 = new String("1") + new String("12");
 //        String str3 = new String("1") + new String("12231");
