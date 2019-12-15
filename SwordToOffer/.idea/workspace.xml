@@ -2,13 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1a446b20-beff-4f01-94f4-30f760d56dfa" name="Default" comment="update">
-      <change beforePath="$PROJECT_DIR$/../LeetCode/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../LeetCode/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SwordToOffer/com/bsb/linkedList/LinkedListSolution.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SwordToOffer/com/bsb/linkedList/LinkedListSolution.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SwordToOffer/com/bsb/linkedList/ListNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SwordToOffer/com/bsb/linkedList/ListNode.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SwordToOffer/com/bsb/str/StrSolution.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SwordToOffer/com/bsb/str/StrSolution.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SwordToOffer/com/bsb/tree/TreeSolution.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SwordToOffer/com/bsb/tree/TreeSolution.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/bsb/array/ArraySolution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/bsb/array/ArraySolution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/bsb/calculate/CalculateSolution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/bsb/calculate/CalculateSolution.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/bsb/str/StrSolution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/bsb/str/StrSolution.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -32,11 +26,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/bsb/array/ArraySolution.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="645">
-              <caret line="433" column="8" selection-start-line="433" selection-start-column="8" selection-end-line="443" selection-end-column="19" />
+            <state relative-caret-position="453">
+              <caret line="425" column="28" selection-start-line="425" selection-start-column="28" selection-end-line="425" selection-end-column="28" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -47,8 +41,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/bsb/str/StrSolution.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="633">
-              <caret line="80" column="26" selection-start-line="80" selection-start-column="26" selection-end-line="80" selection-end-column="26" />
+            <state relative-caret-position="295">
+              <caret line="64" column="9" lean-forward="true" selection-start-line="64" selection-start-column="9" selection-end-line="64" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -105,6 +99,19 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/bsb/calculate/CalculateSolution.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="237">
+              <caret line="23" column="22" lean-forward="true" selection-start-line="23" selection-start-column="22" selection-end-line="23" selection-end-column="22" />
+              <folding>
+                <element signature="e#115#116#0" expanded="true" />
+                <element signature="e#155#156#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
     </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
@@ -131,14 +138,14 @@
         <option value="$PROJECT_DIR$/src/com/bsb/sort/SortSolution.java" />
         <option value="$PROJECT_DIR$/src/AlgorithmTest.java" />
         <option value="$PROJECT_DIR$/src/com/bsb/recursive/RecursiveSolution.java" />
-        <option value="$PROJECT_DIR$/src/com/bsb/calculate/CalculateSolution.java" />
         <option value="$PROJECT_DIR$/src/com/bsb/stackQueue/StackQueueSolution.java" />
         <option value="$PROJECT_DIR$/src/com/bsb/stackQueue/StackSolution.java" />
         <option value="$PROJECT_DIR$/src/com/bsb/stackqueue/StackSolution.java" />
         <option value="$PROJECT_DIR$/src/com/bsb/tree/TreeSolution.java" />
         <option value="$PROJECT_DIR$/src/com/bsb/linkedList/LinkedListSolution.java" />
-        <option value="$PROJECT_DIR$/src/com/bsb/str/StrSolution.java" />
         <option value="$PROJECT_DIR$/src/com/bsb/array/ArraySolution.java" />
+        <option value="$PROJECT_DIR$/src/com/bsb/str/StrSolution.java" />
+        <option value="$PROJECT_DIR$/src/com/bsb/calculate/CalculateSolution.java" />
       </list>
     </option>
   </component>
@@ -253,7 +260,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1575550184360" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1576418670197" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
@@ -273,7 +280,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.StrSolution">
+  <component name="RunManager" selected="Application.CalculateSolution">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -390,11 +397,11 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CalculateSolution" />
         <item itemvalue="Application.StrSolution" />
         <item itemvalue="Application.LinkedListSolution" />
         <item itemvalue="Application.TreeSolution" />
         <item itemvalue="Application.ArraySolution" />
-        <item itemvalue="Application.CalculateSolution" />
       </list>
     </recent_temporary>
   </component>
@@ -431,7 +438,7 @@
       <workItem from="1575119832156" duration="204000" />
       <workItem from="1575210290240" duration="711000" />
       <workItem from="1575378954276" duration="7423000" />
-      <workItem from="1576324666079" duration="2227000" />
+      <workItem from="1576324666079" duration="4356000" />
     </task>
     <task id="LOCAL-00001" summary="过题">
       <created>1554527366653</created>
@@ -475,17 +482,24 @@
       <option name="project" value="LOCAL" />
       <updated>1575471353743</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="update">
+      <created>1576331048195</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1576331048195</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="65780000" />
+    <option name="totallyTimeSpent" value="67909000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26068377" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26068377" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -494,7 +508,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.52040815" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.52040815" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -541,6 +555,18 @@
           <line>232</line>
           <properties />
           <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/bsb/calculate/CalculateSolution.java</url>
+          <line>23</line>
+          <properties />
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/bsb/calculate/CalculateSolution.java</url>
+          <line>27</line>
+          <properties />
+          <option name="timeStamp" value="6" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -637,17 +663,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/bsb/calculate/CalculateSolution.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="10" column="26" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
-          <folding>
-            <element signature="e#115#116#0" expanded="true" />
-            <element signature="e#155#156#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/bsb/tree/TreeSolution.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="98">
@@ -702,16 +717,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/bsb/str/StrSolution.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="633">
-          <caret line="80" column="26" selection-start-line="80" selection-start-column="26" selection-end-line="80" selection-end-column="26" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/src.zip!/java/lang/String.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="229">
@@ -721,10 +726,31 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/bsb/array/ArraySolution.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="645">
-          <caret line="433" column="8" selection-start-line="433" selection-start-column="8" selection-end-line="443" selection-end-column="19" />
+        <state relative-caret-position="453">
+          <caret line="425" column="28" selection-start-line="425" selection-start-column="28" selection-end-line="425" selection-end-column="28" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/bsb/str/StrSolution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="295">
+          <caret line="64" column="9" lean-forward="true" selection-start-line="64" selection-start-column="9" selection-end-line="64" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/bsb/calculate/CalculateSolution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="237">
+          <caret line="23" column="22" lean-forward="true" selection-start-line="23" selection-start-column="22" selection-end-line="23" selection-end-column="22" />
+          <folding>
+            <element signature="e#115#116#0" expanded="true" />
+            <element signature="e#155#156#0" expanded="true" />
           </folding>
         </state>
       </provider>
