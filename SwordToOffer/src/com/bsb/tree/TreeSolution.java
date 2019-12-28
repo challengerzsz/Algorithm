@@ -9,8 +9,11 @@ class TreeNode {
     int val = 0;
     TreeNode left;
     TreeNode right;
-    public TreeNode() {}
-    public TreeNode(int val){
+
+    public TreeNode() {
+    }
+
+    public TreeNode(int val) {
         this.val = val;
     }
 
@@ -233,6 +236,41 @@ public class TreeSolution {
         return res;
     }
 
+    // 判断二叉树是否为平衡二叉树
+    // 这题这种写法只考虑了是不是对每一个节点而言左右两个子树的高度差是不是<=1
+    public boolean IsBalanced_Solution(TreeNode root) {
+        return dfs(root) != -1;
+    }
+
+    private int dfs(TreeNode root) {
+        if (root == null) return 0;
+        int left = dfs(root.left);
+        if (left == -1) return -1;
+        int right = dfs(root.right);
+        if (right == -1) return -1;
+        if (Math.abs(right - left) > 1) return -1;
+            // else 返回这棵树的最大深度
+        else return 1 + (left > right ? left : right);
+    }
+
+    // 判断一个二叉树是不是镜像二叉树
+    public boolean isSymmetrical(TreeNode pRoot) {
+        return pRoot == null || judge(pRoot.left, pRoot.right);
+    }
+    private boolean judge(TreeNode node1, TreeNode node2) {
+        if (node1 == null && node2 == null) {
+            return true;
+        } else if (node1 == null || node2 == null) {
+            return false;
+        }
+
+        if (node1.val != node2.val) {
+            return false;
+        } else {
+            return judge(node1.left, node2.right) && judge(node1.right, node2.left);
+        }
+    }
+
     public static void main(String[] args) {
 //        int[] array = {7, 4, 5, 6};
 //        System.out.println(new TreeSolution().VerifySquenceOfBST(array));
@@ -267,8 +305,9 @@ public class TreeSolution {
         node.left = node5;
         node.right = node6;
 
-        new TreeSolution().FindPath(root, 10);
-
+//        new TreeSolution().FindPath(root, 10);
+//        new TreeSolution().IsBalanced_Solution(root);
+        new TreeSolution().isSymmetrical(root);
 
     }
 

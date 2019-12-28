@@ -383,7 +383,7 @@ public class ArraySolution {
     }
 
     // 把数组排成最小的数
-    public String PrintMinNumber(int [] numbers) {
+    public String PrintMinNumber(int[] numbers) {
         // 借助ArrayList提供的排序
         ArrayList<String> list = new ArrayList<>();
         for (int number : numbers) {
@@ -430,6 +430,7 @@ public class ArraySolution {
 
         return max;
     }
+
     public int maxSubArray(int[] array) {
         int sum = array[0];
         int max = array[0];
@@ -446,7 +447,7 @@ public class ArraySolution {
 
     // 数组中的逆序对 50% 超出时间限制
     // 1. 正常人上来的解法
-    public int InversePairs(int [] array) {
+    public int InversePairs(int[] array) {
         int count = 0;
         for (int i = 1; i < array.length; ++i) {
             for (int j = 0; j <= i; ++j) {
@@ -456,15 +457,18 @@ public class ArraySolution {
 
         return count % 1000000007;
     }
+
     // 2. 利用归并排序的思路统计逆序对
     public static int pairCount = 0;
-    public int InversePairsByMergeSort(int [] array) {
+
+    public int InversePairsByMergeSort(int[] array) {
         if (array == null || array.length == 0) {
             return 0;
         }
         mergeSort(0, array.length - 1, array);
         return pairCount;
     }
+
     private void mergeSort(int left, int high, int[] array) {
         if (left < high) {
             int mid = (left + high) >> 1;
@@ -473,6 +477,7 @@ public class ArraySolution {
             merge(left, mid, high, array);
         }
     }
+
     private void merge(int left, int mid, int high, int[] array) {
         int[] temp = new int[high - left + 1];
         int index = 0;
@@ -493,6 +498,62 @@ public class ArraySolution {
         }
     }
 
+    // 数组中只出现一次的两个数
+    // 数组中只出现一个数的情况O(n)复杂度一遍异或就能得到结果，如果只出现1次的数字有两个
+    // 同样还是考虑HashMap这种解法，但是考虑位运算会不会有解决方式？
+    // 牛客评论区给出答案 先进行一遍异或 找到异或后的值二进制中从左至右的第一个1
+    // 这一位就是那两个只出现一次的数字异或结果位为1的最高位
+    // 通过这一位是1或0 划分两组
+    // 这两组里面必定会划分开两个只出现一次的数，接下来再按组进行异或，就可以得到这两个值
+    public void FindNumsAppearOnceBetterSolution(int[] array, int num1[], int num2[]) {
+        int res = 0;
+        for (int i = 0; i < array.length; i++) {
+            res ^= array[i];
+        }
+        int xor = 1;
+        // 找到第一遍异或结果的最高位1进行划分
+        while ((xor & res) == 0) xor = xor << 1;
+        num1[0] = 0;
+        num2[0] = 0;
+        for (int i = 0; i < array.length; i++) {
+            if ((array[i] & xor) == 0) num1[0] ^= array[i];
+            else num2[0] ^= array[i];
+        }
+    }
+
+    // 约瑟夫环 剑指offer 孩子们的游戏
+    public int LastRemaining_Solution(int n, int m) {
+        if (n == 0) return -1;
+        int[] res = new int[n];
+        // 出去的人数
+        int count = 0;
+        int index = 0;
+        int i = 0;
+        while (count != n - 1) {
+            if (i == n) i = 0;
+            if (res[i] == -1) {
+                i++;
+                continue;
+            }
+            if (index == m - 1) {
+                res[i] = -1;
+                count++;
+                index = 0;
+                i++;
+                continue;
+            }
+            index++;
+            i++;
+        }
+        int ans = 0;
+        for (int k = 0; k < n; k++) {
+            if (res[k] != -1) {
+                ans = k;
+                break;
+            }
+        }
+        return ans;
+    }
 
     public static void main(String[] args) {
 //        int[] a = {0, 3, 2, 6, 4};
@@ -509,7 +570,8 @@ public class ArraySolution {
 //        double a = 1.0;
 //        System.out.println(a == 1);
 //        System.out.println(new ArraySolution().ReverseSentence(" "));
-        int[] array = {1, 2, 3, 4, 5, 6, 7, 0};
-        System.out.println(new ArraySolution().InversePairsByMergeSort(array));
+//        int[] array = {1, 2, 3, 4, 5, 6, 7, 0};
+//        System.out.println(new ArraySolution().InversePairsByMergeSort(array));
+        new ArraySolution().LastRemaining_Solution(5, 2);
     }
 }

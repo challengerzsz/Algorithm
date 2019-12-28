@@ -138,6 +138,38 @@ public class LinkedListSolution {
         return map.get(pHead);
     }
 
+    // 两链表相交的第一个节点
+    // 两个指针分别都走两个链表的长度，因为相交节点距末尾的距离无论是从任何一个链表走都是一样的
+    // 这样有效地拼接之后利用长度差进行遍历，就可以知道相交的第一个节点
+    public ListNode FindFirstCommonNode(ListNode pHead1, ListNode pHead2) {
+
+        ListNode p = pHead1, q = pHead2;
+        while (p != q) {
+            p = p == null ? pHead2 : p.next;
+            q = q == null ? pHead1 : q.next;
+        }
+        return p;
+    }
+
+    // 链表环的入口 该链表不一定有环
+    public ListNode EntryNodeOfLoop(ListNode pHead) {
+        if (pHead == null || pHead.next == null || pHead.next.next == null) return null;
+        ListNode q = pHead.next;
+        ListNode p = pHead.next.next;
+        while (p != null) {
+            if(p == q){
+                p = pHead;
+                while(p != q){
+                    p = p.next;
+                    q = q.next;
+                }
+                return p;
+            }
+            p = p.next.next;
+            q = q.next;
+        }
+        return null;
+    }
 
 
 }

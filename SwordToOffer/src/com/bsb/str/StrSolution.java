@@ -1,8 +1,6 @@
 package com.bsb.str;
 
-import java.util.ArrayList;
-import java.util.Collections;
-import java.util.HashSet;
+import java.util.*;
 
 public class StrSolution {
     //字符串替换
@@ -12,8 +10,9 @@ public class StrSolution {
 
         return newStr;
     }
+
     //左旋字符串
-    public String LeftRotateString(String str,int n) {
+    public String LeftRotateString(String str, int n) {
 
         if (n > str.length()) return "";
         String temp = str.substring(0, n);
@@ -34,6 +33,7 @@ public class StrSolution {
         Collections.sort(res);
         return res;
     }
+
     private void fun(HashSet<String> re, char[] str, int k) {
         if (k == str.length) {
             re.add(new String(str));
@@ -45,6 +45,7 @@ public class StrSolution {
             swap(str, i, k);
         }
     }
+
     private void swap(char[] str, int i, int j) {
         if (i != j) {
             char t = str[i];
@@ -54,21 +55,33 @@ public class StrSolution {
     }
 
     // 第一次只出现一次的字符
-    public int FirstNotRepeatingChar(String str) {
-        int[] counter = new int[256];
-        for (int i = 0; i < str.length(); i++) {
-            counter[str.charAt(i)]++;
+    LinkedHashMap<Character,Integer> map = new LinkedHashMap<>();
+    //Insert one char from stringstream
+    public void Insert(char ch)
+    {
+        if(map.containsKey(ch)) {
+            map.put(ch,-1);
+        } else {
+            map.put(ch, 1);
         }
-        for(int i=0; i < str.length();i++) {
-            if(counter[str.charAt(i)]==1) return i;
+    }
+    //return the first appearence once char in current stringstream
+    public char FirstAppearingOnce()
+    {
+        Iterator<Character> iterator = map.keySet().iterator();
+        while (iterator.hasNext()) {
+            char cur = iterator.next();
+            if(map.get(cur) == 1) {
+                return cur;
+            }
         }
-        return -1;
+        return '#';
     }
 
 
     public static void main(String[] args) {
 
-        System.out.println(new StrSolution().FirstNotRepeatingChar("google"));
+        System.out.println(new StrSolution().FirstAppearingOnce());
 //        String str1 = new String("1") + new String("2");
 //        String str2 = new String("1") + new String("12");
 //        String str3 = new String("1") + new String("12231");
