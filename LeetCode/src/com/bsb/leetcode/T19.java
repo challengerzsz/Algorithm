@@ -8,20 +8,16 @@ public class T19 {
 
     public ListNode removeNthFromEnd(ListNode head, int n) {
         ListNode p = head, q = head;
-        while (n != 0) {
-            q = q.next;
-            n--;
+        // 1 - 2 - 3 - 4 - 5 - 6 - 7 - null
+        for (int i = 0; i < n + 1; i++) {
+            if (q != null) q = q.next;
+            else return head.next;
         }
-
         while (q != null) {
             p = p.next;
             q = q.next;
         }
-        if (q == head) {
-            head.next = null;
-        } else {
-            p.next = q;
-        }
+        p.next = p.next.next;
         return head;
     }
 }

@@ -444,6 +444,56 @@ public class ArraySolution {
         return max;
     }
 
+    // 数组中的逆序对 50% 超出时间限制
+    // 1. 正常人上来的解法
+    public int InversePairs(int [] array) {
+        int count = 0;
+        for (int i = 1; i < array.length; ++i) {
+            for (int j = 0; j <= i; ++j) {
+                if (array[j] > array[i]) count++;
+            }
+        }
+
+        return count % 1000000007;
+    }
+    // 2. 利用归并排序的思路统计逆序对
+    public static int pairCount = 0;
+    public int InversePairsByMergeSort(int [] array) {
+        if (array == null || array.length == 0) {
+            return 0;
+        }
+        mergeSort(0, array.length - 1, array);
+        return pairCount;
+    }
+    private void mergeSort(int left, int high, int[] array) {
+        if (left < high) {
+            int mid = (left + high) >> 1;
+            mergeSort(left, mid, array);
+            mergeSort(mid + 1, high, array);
+            merge(left, mid, high, array);
+        }
+    }
+    private void merge(int left, int mid, int high, int[] array) {
+        int[] temp = new int[high - left + 1];
+        int index = 0;
+        int i = left, j = mid + 1;
+        while (i <= mid && j <= high) {
+            if (array[i] <= array[j]) {
+                temp[index++] = array[i++];
+            } else {
+                pairCount = (pairCount + mid - i + 1) % 1000000007;
+                temp[index++] = array[j++];
+            }
+        }
+        while (i <= mid) temp[index++] = array[i++];
+        while (j <= high) temp[index++] = array[j++];
+
+        for (int k = 0; k < temp.length; k++) {
+            array[left + k] = temp[k];
+        }
+    }
+
+
     public static void main(String[] args) {
 //        int[] a = {0, 3, 2, 6, 4};
 ////        System.out.println(new ArraySolution().MoreThanHalfNum_Solution(a));
@@ -458,6 +508,8 @@ public class ArraySolution {
 
 //        double a = 1.0;
 //        System.out.println(a == 1);
-        System.out.println(new ArraySolution().ReverseSentence(" "));
+//        System.out.println(new ArraySolution().ReverseSentence(" "));
+        int[] array = {1, 2, 3, 4, 5, 6, 7, 0};
+        System.out.println(new ArraySolution().InversePairsByMergeSort(array));
     }
 }

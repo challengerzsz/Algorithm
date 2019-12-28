@@ -3,7 +3,6 @@ package com.bsb.str;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.HashSet;
-import java.util.LinkedHashMap;
 
 public class StrSolution {
     //字符串替换
@@ -95,9 +94,7 @@ public class StrSolution {
 //        System.out.println(i % 10);
 //        System.out.println(i);
 
-        for (int i = 0; i < 100; i++) {
-
-        }
+        new StrSolution().Permutation("");
     }
 
 }
