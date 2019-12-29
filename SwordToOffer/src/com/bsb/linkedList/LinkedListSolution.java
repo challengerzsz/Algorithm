@@ -2,6 +2,7 @@ package com.bsb.linkedList;
 
 import java.util.ArrayList;
 import java.util.HashMap;
+import java.util.List;
 import java.util.Stack;
 
 class ListNode {
@@ -157,9 +158,9 @@ public class LinkedListSolution {
         ListNode q = pHead.next;
         ListNode p = pHead.next.next;
         while (p != null) {
-            if(p == q){
+            if (p == q) {
                 p = pHead;
-                while(p != q){
+                while (p != q) {
                     p = p.next;
                     q = q.next;
                 }
@@ -169,6 +170,28 @@ public class LinkedListSolution {
             q = q.next;
         }
         return null;
+    }
+
+    // 删除排序链表的重复节点 删除后链表中无重复节点
+    public ListNode deleteDuplication(ListNode pHead) {
+        if (pHead == null || pHead.next == null) return pHead;
+        // 构造伪头节点 避免头节点重复
+        ListNode fakeHead = new ListNode(-520);
+        fakeHead.next = pHead;
+        // p指向伪头节点 q指向真正的链表头节点
+        ListNode p = fakeHead, q = fakeHead.next;
+        while (q != null) {
+            if (q.next != null && q.next.val == q.val) {
+                while (q.next != null && q.next.val == q.val) q = q.next;
+                // q此时是一组重复数据的最后一个节点 还需要再往后走一个
+                q = q.next;
+                p.next = q;
+            } else {
+                p = q;
+                q = q.next;
+            }
+        }
+        return fakeHead.next;
     }
 
 

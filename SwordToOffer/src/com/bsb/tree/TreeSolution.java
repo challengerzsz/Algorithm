@@ -1,9 +1,6 @@
 package com.bsb.tree;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.Scanner;
-import java.util.Stack;
+import java.util.*;
 
 class TreeNode {
     int val = 0;
@@ -21,6 +18,20 @@ class TreeNode {
         this.val = val;
         this.left = left;
         this.right = right;
+    }
+}
+
+/**
+ * next指针指向root
+ */
+class TreeLinkNode {
+    int val;
+    TreeLinkNode left = null;
+    TreeLinkNode right = null;
+    TreeLinkNode next = null;
+
+    TreeLinkNode(int val) {
+        this.val = val;
     }
 }
 
@@ -257,6 +268,7 @@ public class TreeSolution {
     public boolean isSymmetrical(TreeNode pRoot) {
         return pRoot == null || judge(pRoot.left, pRoot.right);
     }
+
     private boolean judge(TreeNode node1, TreeNode node2) {
         if (node1 == null && node2 == null) {
             return true;
@@ -269,6 +281,64 @@ public class TreeSolution {
         } else {
             return judge(node1.left, node2.right) && judge(node1.right, node2.left);
         }
+    }
+
+    // 二叉树的下一个节点 （给定一个二叉树和其中的一个结点，请找出中序遍历顺序的下一个结点并且返回。
+    // 注意，树中的结点不仅包含左右子结点，同时包含指向父结点的指针。）
+    ArrayList<TreeLinkNode> middleTraversalRes = new ArrayList<>();
+    public TreeLinkNode GetNext(TreeLinkNode pNode) {
+        TreeLinkNode p = pNode;
+        while (p.next != null) {
+            p = p.next;
+        }
+        TreeLinkNode root = p;
+        middleTraversalHelper(root);
+        for (int i = 0; i < middleTraversalRes.size(); i++) {
+            if (pNode == middleTraversalRes.get(i)) {
+                if (i == middleTraversalRes.size() - 1) return null;
+                else return middleTraversalRes.get(i + 1);
+            }
+        }
+        return null;
+    }
+    private void middleTraversalHelper(TreeLinkNode root) {
+        if (root == null) return;
+        middleTraversalHelper(root.left);
+        middleTraversalRes.add(root);
+        middleTraversalHelper(root.right);
+    }
+
+    // 按照之字型打印二叉树
+    public ArrayList<ArrayList<Integer> > Print(TreeNode pRoot) {
+        ArrayList<ArrayList<Integer>> res = new ArrayList<>();
+        if (pRoot == null) return res;
+        Queue<TreeNode> queue = new LinkedList<>();
+        // 这里是维护flag来表示层与层之间元素需要反转的
+        boolean flag = false;
+        queue.offer(pRoot);
+        while (!queue.isEmpty()) {
+            ArrayList<Integer> every = new ArrayList<>();
+            // 这里因为一直用的是一个queue 要区分每一层的节点 只能用size在刚进循环的时候做记录
+            // 否则下面offer之后size就是动态变换的了
+            int size = queue.size();
+            for (int i = 0; i < size; i++) {
+                TreeNode node = queue.poll();
+                if (node == null) continue;
+                if (!flag) {
+                    every.add(node.val);
+                } else {
+                    // 可以用stack实现 push pop就好
+                    every.add(0, node.val);
+                }
+                queue.offer(node.left);
+                queue.offer(node.right);
+            }
+            if (every.size() != 0) {
+                res.add(every);
+            }
+            flag = !flag;
+        }
+        return res;
     }
 
     public static void main(String[] args) {
@@ -307,8 +377,17 @@ public class TreeSolution {
 
 //        new TreeSolution().FindPath(root, 10);
 //        new TreeSolution().IsBalanced_Solution(root);
-        new TreeSolution().isSymmetrical(root);
+//        new TreeSolution().isSymmetrical(root);
 
+        // 测试queue
+        Queue<Integer> queue = new LinkedList<>();
+        queue.offer(1);
+        queue.offer(2);
+        queue.offer(3);
+        System.out.println(queue.poll());
+        System.out.println(queue.poll());
+        System.out.println(queue.poll());
+        System.out.println(queue.poll());
     }
 
 
