@@ -286,6 +286,7 @@ public class TreeSolution {
     // 二叉树的下一个节点 （给定一个二叉树和其中的一个结点，请找出中序遍历顺序的下一个结点并且返回。
     // 注意，树中的结点不仅包含左右子结点，同时包含指向父结点的指针。）
     ArrayList<TreeLinkNode> middleTraversalRes = new ArrayList<>();
+
     public TreeLinkNode GetNext(TreeLinkNode pNode) {
         TreeLinkNode p = pNode;
         while (p.next != null) {
@@ -301,6 +302,7 @@ public class TreeSolution {
         }
         return null;
     }
+
     private void middleTraversalHelper(TreeLinkNode root) {
         if (root == null) return;
         middleTraversalHelper(root.left);
@@ -309,7 +311,7 @@ public class TreeSolution {
     }
 
     // 按照之字型打印二叉树
-    public ArrayList<ArrayList<Integer> > Print(TreeNode pRoot) {
+    public ArrayList<ArrayList<Integer>> Print(TreeNode pRoot) {
         ArrayList<ArrayList<Integer>> res = new ArrayList<>();
         if (pRoot == null) return res;
         Queue<TreeNode> queue = new LinkedList<>();
@@ -340,6 +342,116 @@ public class TreeSolution {
         }
         return res;
     }
+
+    // 二叉树层次遍历
+    // 利用queue
+    ArrayList<ArrayList<Integer>> PrintForEveryDeep(TreeNode pRoot) {
+        ArrayList<ArrayList<Integer>> res = new ArrayList<>();
+        if (pRoot == null) return res;
+        Queue<TreeNode> queue = new LinkedList<>();
+        queue.offer(pRoot);
+        int everySize = 0;
+        while (!queue.isEmpty()) {
+            everySize = queue.size();
+            ArrayList<Integer> everyList = new ArrayList<>();
+            for (int i = 0; i < everySize; ++i) {
+                TreeNode node = queue.poll();
+                if (node == null) continue;
+                everyList.add(node.val);
+                queue.offer(node.left);
+                queue.offer(node.right);
+            }
+            // 这里要注意everyList是默认每一层开始遍历之前就创建好了，可能会添加进去没有元素的list
+            if (queue.size() != 0) res.add(everyList);
+        }
+        return res;
+    }
+
+    // 递归解
+    ArrayList<ArrayList<Integer>> PrintForEveryDeepByRecursion(TreeNode pRoot) {
+        ArrayList<ArrayList<Integer>> res = new ArrayList<>();
+        if (pRoot == null) return res;
+        PrintForEveryDeepByRecursionDfsHelper(pRoot, res, 0);
+        return res;
+    }
+
+    private void PrintForEveryDeepByRecursionDfsHelper(TreeNode root, ArrayList<ArrayList<Integer>> res, int deep) {
+        if (root == null) return;
+        if (deep < res.size()) {
+            res.get(deep).add(root.val);
+        } else {
+            ArrayList<Integer> everyDeep = new ArrayList<>();
+            everyDeep.add(root.val);
+            res.add(everyDeep);
+        }
+        PrintForEveryDeepByRecursionDfsHelper(root.left, res, deep + 1);
+        PrintForEveryDeepByRecursionDfsHelper(root.right, res, deep + 1);
+    }
+
+    // 序列化反序列化二叉树
+    String Serialize(TreeNode root) {
+        StringBuilder sb = new StringBuilder();
+        if (root == null) {
+            sb.append("#!");
+            return sb.toString();
+        }
+        sb.append(root.val + "!");
+        sb.append(Serialize(root.left));
+        sb.append(Serialize(root.right));
+        return sb.toString();
+    }
+    // index变量，表示目前以反序列化到哪一个节点值
+    // 这里index不要加上static变成全局变量 oc过用例的时候会出错
+    int index = -1;
+    // 同样用前序遍历的方式还原字符串
+    TreeNode Deserialize(String str) {
+        index++;
+        String[] serializeStrArray = str.split("!");
+        int length = serializeStrArray.length;
+        if (index > length) {
+            return null;
+        }
+        TreeNode node = null;
+        if (!serializeStrArray[index].equals("#")) {
+            node = new TreeNode(Integer.valueOf(serializeStrArray[index]));
+            node.left = Deserialize(str);
+            node.right = Deserialize(str);
+        }
+        return node;
+    }
+
+    // 二叉搜索树的第k小的节点
+    // 拿到题就有的思路 中序遍历拿到有序序列 找第k小
+    TreeNode KthNode(TreeNode pRoot, int k) {
+        ArrayList<TreeNode> midOrderList = new ArrayList<>();
+        KthNodeHelper(pRoot, midOrderList);
+        if (k <= 0 || k > midOrderList.size()) return null;
+        return midOrderList.get(k - 1);
+    }
+    private void KthNodeHelper(TreeNode root, List list) {
+        if (root == null) return;
+        KthNodeHelper(root.left, list);
+        list.add(root);
+        KthNodeHelper(root.right, list);
+    }
+    // 递归解
+    int count = 0;
+    TreeNode resNode = null;
+    TreeNode KthNodeByRecursion(TreeNode pRoot, int k) {
+        if (pRoot == null) return null;
+
+        if (count < k && pRoot.left != null) {
+            KthNodeByRecursion(pRoot.left, k);
+        }
+        if (++count == k) {
+            resNode = pRoot;
+        }
+        if (count < k && pRoot.right != null) {
+            KthNodeByRecursion(pRoot.right, k);
+        }
+        return resNode;
+    }
+
 
     public static void main(String[] args) {
 //        int[] array = {7, 4, 5, 6};
@@ -380,14 +492,16 @@ public class TreeSolution {
 //        new TreeSolution().isSymmetrical(root);
 
         // 测试queue
-        Queue<Integer> queue = new LinkedList<>();
-        queue.offer(1);
-        queue.offer(2);
-        queue.offer(3);
-        System.out.println(queue.poll());
-        System.out.println(queue.poll());
-        System.out.println(queue.poll());
-        System.out.println(queue.poll());
+//        Queue<Integer> queue = new LinkedList<>();
+//        queue.offer(1);
+//        queue.offer(2);
+//        queue.offer(3);
+//        System.out.println(queue.poll());
+//        System.out.println(queue.poll());
+//        System.out.println(queue.poll());
+//        System.out.println(queue.poll());
+//        new TreeSolution().PrintForEveryDeepByRecursion(root);
+        new TreeSolution().KthNode(root, 1);
     }
 
 
