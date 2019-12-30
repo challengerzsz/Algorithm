@@ -555,6 +555,82 @@ public class ArraySolution {
         return ans;
     }
 
+    // 矩阵中的路径
+    // 找出矩阵中出现str字符数组的路径 这里没有要求起点在哪里 所以每一个位置都有可能成为起点
+    private boolean[] visited = null;
+    public boolean hasPath(char[] matrix, int rows, int cols, char[] str) {
+        visited = new boolean[rows * cols];
+        for (int i = 0; i < rows; i++) {
+            for (int j = 0; j < cols; j++) {
+                if (hasPathHelper(matrix, rows, cols, i, j, str, 0)) return true;
+            }
+        }
+        return false;
+    }
+    /**
+     *
+     * @param matrix 矩阵
+     * @param rows 和cols都是为了保证下一层递归时移动到矩阵某位置时不越界
+     * @param cols
+     * @param i 当前递归到矩阵的行
+     * @param j 当前递归到的矩阵的列
+     * @param str 字符数组
+     * @param index 字符数组某元素下标
+     * @return
+     */
+    private boolean hasPathHelper(char[] matrix, int rows, int cols, int i, int j, char[] str, int index) {
+        // 如果递归到这里之后对应矩阵元素和str的index下标对应元素不一致 说明不符合路径
+        // 从这个节点开始不再向上下左右递归 直接return false
+        if (matrix[i * cols + j] != str[index] || visited[i * cols + j]) return false;
+        if (index == str.length - 1) return true;
+        visited[i * cols + j] = true;
+        if (i > 0 && hasPathHelper(matrix, rows, cols, i - 1, j, str, index + 1)) return true;
+        if (i < rows - 1 && hasPathHelper(matrix, rows, cols, i + 1, j, str, index + 1)) return true;
+        if (j > 0 && hasPathHelper(matrix, rows, cols, i, j - 1, str, index + 1)) return true;
+        if (j < cols - 1 && hasPathHelper(matrix, rows, cols, i, j + 1, str, index + 1)) return true;
+        visited[i * cols + j] = false;
+        return false;
+    }
+
+    // 机器人运动范围 25% 不太清楚哪里有问题 可能题意没有懂
+    private int count = 0;
+    private boolean movingCountVisited[] = null;
+    public int movingCount(int threshold, int rows, int cols) {
+        movingCountVisited = new boolean[rows * cols];
+        movingCountHelper(threshold, rows, cols, 0, 0);
+        return count;
+    }
+    private void movingCountHelper(int threshold, int rows, int cols, int i, int j) {
+        if (isTimeToEnd()) return;
+        if (movingCountVisited[i * cols + j]) return;
+        if (isCorrect(threshold, i, j)) count++;
+        movingCountVisited[i * cols + j] = true;
+        if (i > 0) movingCountHelper(threshold, rows, cols, i - 1, j);
+        if (i < rows - 1) movingCountHelper(threshold, rows, cols, i + 1, j);
+        if (j > 0) movingCountHelper(threshold, rows, cols, i, j - 1);
+        if (j < cols - 1) movingCountHelper(threshold, rows, cols, i, j + 1);
+    }
+    private boolean isTimeToEnd() {
+        for (boolean t : movingCountVisited) {
+            if (!t) return false;
+        }
+        return true;
+    }
+    private boolean isCorrect(int threshold, int i, int j) {
+        int count = 0;
+        while (i != 0 || j !=0) {
+            if (i != 0) {
+                count += i % 10;
+                i /= 10;
+            }
+            if (j != 0) {
+                count += j % 10;
+                j /= 10;
+            }
+        }
+        return count <= threshold;
+    }
+
     public static void main(String[] args) {
 //        int[] a = {0, 3, 2, 6, 4};
 ////        System.out.println(new ArraySolution().MoreThanHalfNum_Solution(a));
@@ -572,6 +648,25 @@ public class ArraySolution {
 //        System.out.println(new ArraySolution().ReverseSentence(" "));
 //        int[] array = {1, 2, 3, 4, 5, 6, 7, 0};
 //        System.out.println(new ArraySolution().InversePairsByMergeSort(array));
-        new ArraySolution().LastRemaining_Solution(5, 2);
+//        new ArraySolution().LastRemaining_Solution(5, 2);
+//        char[] array = {'a', 'b', 'c', 'e', 's', 'f', 'c', 's', 'a', 'd', 'e', 'e'};
+//        char[] target = {'a', 'b', 'c', 'c', 'e', 'd'};
+//        new ArraySolution().hasPath(array, 3, 4, target);
+//        int i = 123;
+//        int count = 0;
+//        while (i != 0) {
+//            count += i % 10;
+//            i /= 10;
+//        }
+//        System.out.println(count);
+//        System.out.println(new ArraySolution().isCorrect(10, 12, 23));
+        ArraySolution arraySolution = new ArraySolution();
+        int count = 0;
+        int i = 0;
+        while (i < 99) {
+            if (arraySolution.isCorrect(10, 0, i)) count++;
+            i++;
+        }
+        System.out.println(count);
     }
 }
