@@ -14,11 +14,32 @@ class ListNode {
 public class T24 {
 
     public ListNode swapPairs(ListNode head) {
-        ListNode pre = head, first, second;
-        while (pre.next != null && pre.next.next != null) {
+        if (head == null || head.next == null) {
+            return head;
+        }
+        // 构造虚拟头节点
+        ListNode node = new ListNode(-1);
+        ListNode res = node;
+        while (head != null && head.next != null) {
+            node.next = head.next;
+            head.next = head.next.next;
+            node.next.next = head;
+
+            node = node.next.next;
+            head = head.next;
 
         }
+        return res.next;
+    }
 
-        return null;
+    // 讨论区大佬 及其优雅的递归写法
+    public ListNode swapPairs2(ListNode head) {
+        if(head == null || head.next == null){
+            return head;
+        }
+        ListNode next = head.next;
+        head.next = swapPairs(next.next);
+        next.next = head;
+        return next;
     }
 }
