@@ -17,7 +17,8 @@ public class T39 {
     }
     private void backTraceHelper(int[] candidates, List<Integer> preList, int target, int sum, int start) {
         if (sum == target) {
-            res.add(preList);
+            // 这里要add新list实例 因为回溯过程中会对preList进行remove元素 不然会出错
+            res.add(new ArrayList<>(preList));
             return;
         }
 
@@ -28,5 +29,10 @@ public class T39 {
                 preList.remove(preList.size() - 1);
             }
         }
+    }
+
+    public static void main(String[] args) {
+        int[] array = {2, 3, 6, 7};
+        new T39().combinationSum(array, 7);
     }
 }
