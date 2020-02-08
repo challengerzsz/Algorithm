@@ -64,4 +64,51 @@ public class T376 {
         return Math.max(upDp[nums.length - 1], downDp[nums.length - 1]) + 1;
     }
 
+    // 下面的动态规划为线性O(n)时间复杂度完成两个dp数组填充
+    // 如果 nums[i] > nums[i-1]nums[i]>nums[i−1] ，意味着这里在摆动上升 前一个数字肯定处于下降的位置
+    // 所以 upDp[i] = downDp[i-1] + 1upDp[i]=downDp[i−1]+1 downDp[i]downDp[i] 与 downDp[i-1]downDp[i−1] 保持相同
+    //
+    // 如果 nums[i] < nums[i-1]nums[i]<nums[i−1] ，意味着这里在摆动下降 前一个数字肯定处于下降的位置
+    // 所以 downDp[i] = upDp[i-1] + 1downDp[i]=upDp[i−1]+1 upDp[i]upDp[i] 与 upDp[i-1]upDp[i−1] 保持不变。
+    //
+    // 如果 nums[i] == nums[i-1]nums[i]==nums[i−1] ，意味着这个元素不会改变任何东西因为它没有摆动
+    // 所以 downDp[i]downDp[i] 与 upDp[i]upDp[i] 与 downDp[i-1]downDp[i−1] 和 upDp[i-1]upDp[i−1] 都分别保持不变。
+    public int wiggleMaxLengthByDp2(int[] nums) {
+        if (nums.length < 2) return nums.length;
+
+        int[] upDp = new int[nums.length];
+        int[] downDp = new int[nums.length];
+        upDp[0] = downDp[0] = 1;
+        for (int i = 1; i < nums.length; i++) {
+            if (nums[i] > nums[i - 1]) {
+                upDp[i] = downDp[i - 1] + 1;
+                downDp[i] = downDp[i - 1];
+            } else if (nums[i] < nums[i - 1]) {
+                downDp[i] = upDp[i - 1] + 1;
+                upDp[i] = upDp[i - 1];
+            } else {
+                downDp[i] = downDp[i - 1];
+                upDp[i] = upDp[i - 1];
+            }
+        }
+        return Math.max(upDp[nums.length - 1], downDp[nums.length - 1]);
+    }
+
+    // 观察上面的线性dp数组其实每次需要的只是最后更新的upDp数组和downDp数组的最后一位 不需要数组存储
+    // 优化空间复杂度
+    // 算法的思路和上方法一致
+    public int wiggleMaxLengthByDp3(int[] nums) {
+        if (nums.length < 2) return nums.length;
+
+        int upDp = 1, downDp = 1;
+        for (int i = 1; i < nums.length; i++) {
+            if (nums[i] > nums[i - 1]) {
+                upDp = downDp + 1;
+            } else if (nums[i] < nums[i - 1]) {
+                downDp = upDp + 1;
+            }
+        }
+        return Math.max(upDp, downDp);
+    }
+
 }
