@@ -18,6 +18,7 @@ public class T134 {
             totalTank += gas[i] - cost[i];
             currentTank += gas[i] - cost[i];
 
+            // 满足这个条件的意思就是从这个加油站出发不能够到达下一个加油站 gas[i] - cost[i] < 0
             if (currentTank < 0) {
                 starting_station = i + 1;
                 currentTank = 0;

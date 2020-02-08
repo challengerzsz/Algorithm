@@ -12,6 +12,7 @@ public class T45 {
         int max = 0;
         int res = 0;
         for (int i = 0; i < nums.length - 1; i++) {
+            // 这里其实就是在找步步最大
             max = Math.max(max, nums[i] + i);
             if (i == end) {
                 // 更新边界
