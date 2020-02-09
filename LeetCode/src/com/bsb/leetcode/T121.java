@@ -26,6 +26,7 @@ public class T121 {
     // 第二种解法
     // 这种最简单的股票问题可以想想成折线图
     // 这样的话只需要找最低的点和最低点后最高的点
+    // 最多只允许交易一次
     public int maxProfit2(int[] prices) {
         int min = Integer.MAX_VALUE;
         int max = 0;
