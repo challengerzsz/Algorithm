@@ -1,4 +1,4 @@
-package com.bsb.leetcode;
+package com.bsb.tencent;
 
 /**
  * @author : zengshuaizhi

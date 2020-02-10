@@ -79,6 +79,7 @@ public class T5 {
 
     // 突然想起来有个这个题 来练练动态规划
     public String longestPalindromeByDp(String str) {
+        if (str == null || str.length() == 0) return str;
 
         // 定义二维dp数组 dp[i][j]表示str从i～j是否为回文串
         // 这里i <= j
