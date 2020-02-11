@@ -14,7 +14,6 @@ public class T210 {
     public int[] findOrder(int numCourses, int[][] prerequisites) {
         int[] res = new int[0];
         List<Integer> tempList = new ArrayList<>();
-        int index = 0;
         // 入度表
         int[] inDegree = new int[numCourses];
         for (int[] temp : prerequisites) {

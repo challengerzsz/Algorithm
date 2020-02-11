@@ -20,7 +20,13 @@ public class T198 {
         int[] dp = new int[nums.length];
         dp[0] = nums[0];
         dp[1] = Math.max(nums[0], nums[1]);
+        // 打家劫舍第一类型
+        // 一个数组的连续房子 不能连续抢2家 不然会触发警报..
+        // 很简单的动态规划解
+        // 对于当前的房子 可以选择抢或者不抢
+        // 并且如果要抢的话 必须保证上一个房子不抢
         for (int i = 2; i < nums.length; i++) {
+            // 这个房子确定抢或者不抢取max作为这个节点的值
             dp[i] = Math.max(dp[i - 2] + nums[i], dp[i - 1]);
         }
         return dp[nums.length - 1];
