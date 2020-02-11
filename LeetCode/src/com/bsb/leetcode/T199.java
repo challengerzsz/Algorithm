@@ -38,6 +38,24 @@ public class T199 {
         dfs(root.left, list, max + 1);
     }
 
+    // 字节第二次面试的算法题 现在看来是这么简单
+    // 1ms 100%
+    private List<Integer> res = new ArrayList<>();
+    private int max = 0;
+    public List<Integer> rightSideView2(TreeNode root) {
+        if (root == null) return res;
+        helper(root, 1);
+        return res;
+    }
+
+    private void helper(TreeNode root, int nowDeep) {
+        if (root == null) return;
+        if (nowDeep > max) res.add(root.val);
+        if (nowDeep > max) max = nowDeep;
+        helper(root.right, nowDeep + 1);
+        helper(root.left, nowDeep + 1);
+    }
+
 
     public static void main(String[] args) {
         TreeNode root = null;

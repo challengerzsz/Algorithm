@@ -24,6 +24,9 @@ public class T200 {
         return count;
     }
 
+    // 岛屿这题就是从1开始dfs搜所有的1
+    // 把所有与搜索起点相连的1先换成别的字符 保证别的1为起点的时候不会重复搜索
+    // 深搜就完了
     private void dfs(char[][] grid, int i, int j) {
         int nr = grid.length;
         int nc = grid[0].length;
