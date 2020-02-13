@@ -6,11 +6,13 @@ package com.bsb.leetcode;
  */
 public class T115 {
 
-    // 这题还是有些难 动态规划解还是没看懂 先放一放吧
+    // T95思路
     public int numDistinct(String s, String t) {
 
-        // LC题解
-        // https://leetcode-cn.com/problems/distinct-subsequences/solution/dong-tai-gui-hua-by-powcai-5/
+        // dp[i][j]表示S的前j个字符有几种方式构成T的前i个字符
+        // 若T[i-1] == S[j-1] T[i−1]==S[j−1]
+        // 此时dp[i][j] = dp[i-1][j-1] + dp[i][j-1] dp[i][j] = dp[i−1][j−1] + dp[i][j−1]
+        // 否则 dp[i][j] = dp[i][j-1] dp[i][j] = dp[i][j−1]
         int[][] dp = new int[t.length() + 1][s.length() + 1];
         for (int j = 0; j < s.length() + 1; j++) dp[0][j] = 1;
         for (int i = 1; i < t.length() + 1; i++) {
