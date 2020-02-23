@@ -1,6 +1,5 @@
 package com.bsb.leetcode;
 
-import sun.applet.Main;
 
 /**
  * @author : zengshuaizhi
