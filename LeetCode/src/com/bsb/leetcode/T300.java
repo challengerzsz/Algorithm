@@ -27,6 +27,10 @@ public class T300 {
     }
 
     // 题目要求nlogn 所以二分再来一个
+    // 这题目的思路是这样 tag数组标记目前为止遍历nums数组得出的最小值
+    // 如果当前遍历的nums数组元素<tag数组的最后一个元素 那么就替换 否则将这个值添加进tag数组 res++
+    // 表示这个值可以被作为当前最大的递增序列中的一员
+    // 找到添加的位置使用的是二分 所以时间复杂度nlogn
     public int lengthOfLIS2(int[] nums) {
         int[] tag = new int[nums.length];
         int res = 0;
@@ -41,5 +45,10 @@ public class T300 {
             if (res == j) res++;
         }
         return res;
+    }
+
+    public static void main(String[] args) {
+        int[] array = {10, 9, 2, 5, 3, 7, 101, 18};
+        new T300().lengthOfLIS2(array);
     }
 }
