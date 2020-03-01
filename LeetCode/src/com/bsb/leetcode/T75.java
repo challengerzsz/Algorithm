@@ -10,11 +10,13 @@ public class T75 {
     荷兰三色旗问题解
     */
     // 这题目解释的太好了我就直接班上来了...
+    // 最后需要排列成值为0 1 2的数组 每个元素的个数不限 只需要按顺序排列即可
     public void sortColors(int[] nums) {
-        // 对于所有 idx < i : nums[idx < i] = 0
-        // j是当前考虑元素的下标
+        // p0维护的是数组中左边0的最右边界
+        // p2维护的是数组最右边2的最左边界
+        // cur是介于p0和p2之间的待处理元素下标
         int p0 = 0, curr = 0;
-        // 对于所有 idx > k : nums[idx > k] = 2
+
         int p2 = nums.length - 1;
 
         int tmp;
@@ -31,7 +33,7 @@ public class T75 {
                 tmp = nums[curr];
                 nums[curr] = nums[p2];
                 nums[p2--] = tmp;
-            } else curr++;
+            } else curr++; // 遇到1则不变 因为1的颜色就是在数组中间
         }
     }
 }
