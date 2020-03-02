@@ -6,9 +6,7 @@ package com.bsb.leetcode;
  */
 public class T75 {
 
-    /*
-    荷兰三色旗问题解
-    */
+    // 荷兰三色旗问题解
     // 这题目解释的太好了我就直接班上来了...
     // 最后需要排列成值为0 1 2的数组 每个元素的个数不限 只需要按顺序排列即可
     public void sortColors(int[] nums) {

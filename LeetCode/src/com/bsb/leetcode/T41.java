@@ -25,6 +25,17 @@ public class T41 {
     }
 
     // 题解好思路 桶 + 抽屉原理
+    // 这题其实是利用自身数组nums数组做hash表
+    // 跟tx的第一个面试题一样
+    // 那个题是这样的 如果数组中有n个数字 数字的大小0 ～ n - 1 找出重复的数字
+    // 这个题的思路同样如此
+    // 因为题目要求找出缺失的第一个正整数
+    // 所以我们可以得到这种映射
+    // num - index
+    // 1   -   0
+    // 2   -   1
+    // …   -   …
+    // 最终统计以nums数组为hash表的每位元素是否都有特定的值还原上去
     public int firstMissingPositive2(int[] nums) {
         int len = nums.length;
         for (int i = 0; i < len; i++) {
