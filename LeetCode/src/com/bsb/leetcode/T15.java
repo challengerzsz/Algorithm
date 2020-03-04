@@ -16,7 +16,7 @@ public class T15 {
         int r = 0, l = 0, sum = 0;
         for (int i = 0; i < nums.length - 1; i++) {
             if (nums[i] > 0) break;
-            if (i > 0 && nums[i - 1] > nums[i]) continue;
+            if (i > 0 && nums[i - 1] == nums[i]) continue;
             l = i + 1;
             r = nums.length - 1;
             while (l < r) {
