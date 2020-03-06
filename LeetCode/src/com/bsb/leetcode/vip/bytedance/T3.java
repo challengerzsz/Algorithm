@@ -74,6 +74,7 @@ public class T3 {
             char c = s.charAt(i);
             if (map.containsKey(c)) {
                 if (dp[i - 1] >= i - map.get(c)) {
+                    // 相当于左窗口右移
                     dp[i] = i - map.get(c);
                 } else {
                     // 这里需要注意 因为我们用的map存储的之前出现过的字符的下标
