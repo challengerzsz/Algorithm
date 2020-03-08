@@ -1,4 +1,4 @@
-package com.bsb.leetcode.contest.MayFirst;
+package com.bsb.leetcode.contest.may_first;
 
 import java.util.Arrays;
 import java.util.Deque;
