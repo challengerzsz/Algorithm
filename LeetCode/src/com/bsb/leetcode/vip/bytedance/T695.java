@@ -1,13 +1,12 @@
-package com.bsb.leetcode;
+package com.bsb.leetcode.vip.bytedance;
 
 /**
  * @author : zengshuaizhi
- * @date : 2020-02-24 17:07
+ * @date : 2020-03-15 22:12
  */
 public class T695 {
 
     // 岛屿最大面积
-    // 这题和之前的最大岛屿不太一样 这里要求岛屿的相邻部分必须是水平连接或者垂直连接的
     private int[][] directions = {{1, 0}, {-1, 0}, {0, 1}, {0, -1}};
     public int maxAreaOfIsland(int[][] grid) {
         int max = 0;
