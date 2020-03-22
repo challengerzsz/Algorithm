@@ -41,7 +41,6 @@ public class T2 {
                     lastInWindow = nums[left];
                 }
             }
-
         }
         System.out.println(max);
     }
