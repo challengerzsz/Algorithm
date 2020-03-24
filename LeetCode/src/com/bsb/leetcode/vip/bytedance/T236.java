@@ -31,9 +31,8 @@ public class T236 {
             return root;
         } else if (left != null) {
             return left;
-        } else if (right != null) {
+        } else {
             return right;
         }
-        return null;
     }
 }

@@ -29,6 +29,7 @@ public class T3 {
 
         int index = 0;
         while (n > 0 && k > 0 && m >= need[index]) {
+            // n轮任务
             long sneed = n * need[index] <= m ? need[index] :
                     (m / need[index]) * need[index];
             double svalue = (sneed / need[index]) * p;
@@ -36,9 +37,8 @@ public class T3 {
             if (hvalue > svalue && m - hneed < need[index]) {
                 ans += hvalue;
                 m -= hneed;
-                 n--;
-            }
-            else if ((n * need[index] > m && svalue > hvalue) || svalue / sneed >= hvalue / hneed) {
+                n--;
+            } else if ((n * need[index] > m && svalue > hvalue) || svalue / sneed >= hvalue / hneed) {
                 ans += svalue;
                 hneed -= need[index];
                 m -= sneed;
