@@ -1,11 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f6c5c93d-d330-41aa-a9bc-425cab67bed7" name="Default Changelist" comment="">
+    <list default="true" id="f6c5c93d-d330-41aa-a9bc-425cab67bed7" name="Default Changelist" comment="update 3 trees">
+      <change afterPath="$PROJECT_DIR$/src/com/bsb/leetcode/T1162.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/bsb/leetcode/vip/bytedance/T55.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/zengshuaizhi.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/zengshuaizhi.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SwordToOffer/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SwordToOffer/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SwordToOffer/src/com/bsb/linkedList/LinkedListSolution.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SwordToOffer/src/com/bsb/linkedList/LinkedListSolution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SwordToOffer/src/com/bsb/tree/TreeSolution.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SwordToOffer/src/com/bsb/tree/TreeSolution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/com/bsb/leetcode/T15.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCode/com/bsb/leetcode/T15.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/com/bsb/leetcode/T199.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCode/com/bsb/leetcode/T199.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/com/bsb/leetcode/T206.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCode/com/bsb/leetcode/T206.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/com/bsb/leetcode/T24.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCode/com/bsb/leetcode/T24.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/com/bsb/leetcode/T5.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCode/com/bsb/leetcode/T5.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/com/bsb/leetcode/T53.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCode/com/bsb/leetcode/T53.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/com/bsb/leetcode/Tx.class" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -18,6 +25,15 @@
     <SUITE FILE_PATH="coverage/LeetCode$DuplicateArrayMember.ic" NAME="DuplicateArrayMember Coverage Results" MODIFIED="1554023060649" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>com.bsb.sword.*</FILTER>
     </SUITE>
+    <SUITE FILE_PATH="coverage/LeetCode$T440.ic" NAME="T440 Coverage Results" MODIFIED="1583486495679" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.bsb.leetcode.vip.bytedance.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/LeetCode$T300.ic" NAME="T300 Coverage Results" MODIFIED="1582703849001" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.bsb.leetcode.*</FILTER>
+    </SUITE>
+  </component>
+  <component name="CoverageViewManager">
+    <option name="myElementSize" value="249" />
   </component>
   <component name="DatabaseView">
     <option name="SHOW_INTERMEDIATE" value="true" />
@@ -36,56 +52,19 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/bsb/leetcode/T15.java">
+        <entry file="file://$PROJECT_DIR$/src/com/bsb/leetcode/vip/bytedance/T105.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="288">
-              <caret line="14" selection-start-line="14" selection-end-line="14" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="252">
+              <caret line="9" column="4" selection-start-line="9" selection-start-column="4" selection-end-line="36" selection-end-column="5" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/bsb/leetcode/T5.java">
+        <entry file="file://$PROJECT_DIR$/src/com/bsb/leetcode/T105.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1416">
-              <caret line="59" column="52" selection-start-line="59" selection-start-column="52" selection-end-line="59" selection-end-column="52" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/bsb/leetcode/T6.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="480">
-              <caret line="20" column="25" selection-start-line="20" selection-start-column="25" selection-end-line="20" selection-end-column="25" />
-              <folding>
-                <element signature="e#1017#1018#0" expanded="true" />
-                <element signature="e#1058#1059#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/bsb/leetcode/T18.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="141">
-              <caret line="15" column="26" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="26" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/bsb/leetcode/T86.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="720">
-              <caret line="30" selection-start-line="30" selection-end-line="30" />
+            <state relative-caret-position="700">
+              <caret line="25" column="13" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -93,36 +72,35 @@
       <file pinned="false" current-in-tab="false">
         <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/src.zip!/java/lang/String.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="14016">
-              <caret line="634" column="16" selection-start-line="634" selection-start-column="16" selection-end-line="634" selection-end-column="16" />
-              <folding>
-                <element signature="e#23072#23073#0" expanded="true" />
-                <element signature="e#23112#23113#0" expanded="true" />
-                <element signature="e#58481#58482#0" expanded="true" />
-                <element signature="e#58518#58519#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="25788">
+              <caret line="976" column="31" selection-start-line="976" selection-start-column="31" selection-end-line="976" selection-end-column="31" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/bsb/leetcode/topic/recursion/T1.java">
+        <entry file="file://$PROJECT_DIR$/src/com/bsb/leetcode/T206.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="480">
-              <caret line="22" column="28" selection-start-line="22" selection-start-column="28" selection-end-line="22" selection-end-column="28" />
-              <folding>
-                <element signature="e#164#165#0" expanded="true" />
-                <element signature="e#192#193#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="672">
+              <caret line="24" column="8" selection-start-line="24" selection-start-column="8" selection-end-line="24" selection-end-column="8" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/bsb/leetcode/T199.java">
+        <entry file="file://$PROJECT_DIR$/src/com/bsb/meituan/prepare/QuickSort.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="528">
-              <caret line="26" column="55" selection-start-line="26" selection-start-column="55" selection-end-line="26" selection-end-column="55" />
+            <state relative-caret-position="246">
+              <caret line="15" column="46" selection-start-line="15" selection-start-column="46" selection-end-line="15" selection-end-column="46" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/bsb/leetcode/T1162.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="168">
+              <caret line="12" column="8" selection-start-line="12" selection-start-column="8" selection-end-line="60" selection-end-column="44" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -130,26 +108,29 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/src.zip!/java/lang/ref/WeakReference.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/bsb/leetcode/vip/bytedance/T55.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="576">
-              <caret line="47" column="13" selection-start-line="47" selection-start-column="13" selection-end-line="47" selection-end-column="13" />
+            <state relative-caret-position="280">
+              <caret line="10" column="8" lean-forward="true" selection-start-line="10" selection-start-column="8" selection-end-line="22" selection-end-column="24" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/src.zip!/java/lang/Thread.java">
+        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/src.zip!/java/lang/StringBuilder.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3216">
-              <caret line="171" column="63" selection-start-line="171" selection-start-column="63" selection-end-line="171" selection-end-column="63" />
-              <folding>
-                <element signature="e#36709#36710#0" expanded="true" />
-                <element signature="e#36767#36768#0" expanded="true" />
-                <element signature="e#37304#37305#0" expanded="true" />
-                <element signature="e#37347#37348#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="3080">
+              <caret line="139" column="7" selection-start-line="139" selection-start-column="7" selection-end-line="139" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/src.zip!/java/lang/AbstractStringBuilder.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="11508">
+              <caret line="443" column="33" selection-start-line="443" selection-start-column="33" selection-end-line="443" selection-end-column="33" />
             </state>
           </provider>
         </entry>
@@ -159,29 +140,75 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Singleton" />
         <option value="Class" />
       </list>
     </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>get</find>
-      <find>acquire(</find>
-      <find>lock(</find>
-      <find>release</find>
-      <find>tryRe</find>
-      <find>acquireQueue</find>
-      <find>add(</find>
-      <find>Map</find>
-      <find>ThreadLocalMa</find>
-      <find>put(</find>
-      <find>set(</find>
-      <find>valueOf(</find>
-      <find>number</find>
-      <find>hashCode</find>
+      <find>deque</find>
+      <find>headB</find>
+      <find>ans</find>
+      <find>合并k</find>
+      <find>submit(</find>
+      <find>dummy</find>
+      <find>prevNode</find>
+      <find>secondNode</find>
+      <find>p</find>
+      <find>g</find>
+      <find>gcd</find>
+      <find>最长公共</find>
+      <find>中间</find>
+      <find>dummyHead</find>
+      <find>l</find>
+      <find>jinbi</find>
+      <find>拓扑</find>
+      <find>并查集</find>
+      <find>Sp</find>
+      <find>拓扑排序</find>
+      <find>股票</find>
+      <find>祖先</find>
+      <find>打家劫舍</find>
+      <find>s2</find>
+      <find>maxans</find>
+      <find>maxval</find>
+      <find>公共祖先</find>
+      <find>append(</find>
+      <find>equals(</find>
+      <find>head.next.next = head</find>
     </findStrings>
     <replaceStrings>
-      <replace>str</replace>
+      <replace>timeMap</replace>
+      <replace>resPre</replace>
+      <replace>nowI</replace>
+      <replace>nowJ</replace>
+      <replace>nums1Start</replace>
+      <replace>nums1End</replace>
+      <replace>nums2Start</replace>
+      <replace>nums2End</replace>
+      <replace>{</replace>
+      <replace>}</replace>
+      <replace>sort</replace>
+      <replace>right</replace>
+      <replace>next</replace>
+      <replace>count</replace>
+      <replace>word1.length()</replace>
+      <replace>word1.length</replace>
+      <replace>word2.length()</replace>
+      <replace>maxQueue</replace>
+      <replace>pre</replace>
+      <replace>q</replace>
+      <replace>p</replace>
+      <replace>temp</replace>
+      <replace>helpeer</replace>
+      <replace>helper</replace>
+      <replace>fakeHead</replace>
+      <replace>left</replace>
+      <replace>coins</replace>
+      <replace>stack2</replace>
+      <replace>res</replace>
+      <replace>cur</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -190,69 +217,71 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/Solution.java" />
-        <option value="$PROJECT_DIR$/src/T4.java" />
-        <option value="$PROJECT_DIR$/src/com/bsb/sword/DuplicateArrayMember.java" />
-        <option value="$PROJECT_DIR$/src/com/bsb/sword/SubTree.java" />
-        <option value="$PROJECT_DIR$/src/com/bsb/TxQuestion.java" />
-        <option value="$PROJECT_DIR$/src/com/bsb/leetcode/T4.java" />
-        <option value="$PROJECT_DIR$/src/com/bsb/leetcode/T7.java" />
-        <option value="$PROJECT_DIR$/src/com/bsb/leetcode/T8.java" />
-        <option value="$PROJECT_DIR$/src/com/bsb/leetcode/T9.java" />
-        <option value="$PROJECT_DIR$/src/com/bsb/leetcode/T11.java" />
-        <option value="$PROJECT_DIR$/src/com/bsb/leetcode/T53.java" />
-        <option value="$PROJECT_DIR$/src/com/bsb/leetcode/Sort.java" />
-        <option value="$PROJECT_DIR$/src/com/bsb/leetcode/T208.java" />
-        <option value="$PROJECT_DIR$/src/com/bsb/leetcode/T135.java" />
-        <option value="$PROJECT_DIR$/src/com/bsb/meituan/T1.java" />
-        <option value="$PROJECT_DIR$/src/com/bsb/cvte/T2.java" />
-        <option value="$PROJECT_DIR$/src/com/bsb/alibaba/AllPaiLie.java" />
-        <option value="$PROJECT_DIR$/src/com/bsb/alibaba/T2.java" />
-        <option value="$PROJECT_DIR$/src/com/bsb/alibaba/PrintTest.java" />
-        <option value="$PROJECT_DIR$/src/com/bsb/sxf/T1.java" />
-        <option value="$PROJECT_DIR$/src/com/bsb/sxf/T2.java" />
-        <option value="$PROJECT_DIR$/src/com/bsb/bytedance/T1.java" />
-        <option value="$PROJECT_DIR$/src/com/bsb/didi/T1.java" />
-        <option value="$PROJECT_DIR$/src/com/bsb/didi/T3.java" />
-        <option value="$PROJECT_DIR$/src/com/bsb/didi/T2.java" />
-        <option value="$PROJECT_DIR$/src/com/bsb/tencent/T.java" />
-        <option value="$PROJECT_DIR$/src/com/bsb/tencent/T3.java" />
-        <option value="$PROJECT_DIR$/src/com/bsb/tencent/T2.java" />
-        <option value="$PROJECT_DIR$/src/com/bsb/tencent/T1.java" />
-        <option value="$PROJECT_DIR$/src/com/bsb/bytedance/T2.java" />
-        <option value="$PROJECT_DIR$/src/com/bsb/bytedance/string/T1.java" />
-        <option value="$PROJECT_DIR$/src/com/bsb/bytedance/string/T2.java" />
-        <option value="$PROJECT_DIR$/src/com/bsb/leetcode/T1114.java" />
-        <option value="$PROJECT_DIR$/src/com/bsb/leetcode/Tx.java" />
-        <option value="$PROJECT_DIR$/src/com/bsb/leetcode/T199.java" />
-        <option value="$PROJECT_DIR$/src/com/bsb/leetcode/T5.java" />
-        <option value="$PROJECT_DIR$/src/com/bsb/leetcode/T15.java" />
-        <option value="$PROJECT_DIR$/src/com/bsb/leetcode/T16.java" />
-        <option value="$PROJECT_DIR$/src/com/bsb/leetcode/topic/recursion/T1.java" />
-        <option value="$PROJECT_DIR$/src/com/bsb/leetcode/T24.java" />
-        <option value="$PROJECT_DIR$/src/com/bsb/leetcode/T206.java" />
-        <option value="$PROJECT_DIR$/src/com/bsb/leetcode/T160.java" />
-        <option value="$PROJECT_DIR$/src/com/bsb/leetcode/T86.java" />
-        <option value="$PROJECT_DIR$/src/com/bsb/leetcode/T17.java" />
-        <option value="$PROJECT_DIR$/src/com/bsb/leetcode/T19.java" />
-        <option value="$PROJECT_DIR$/src/com/bsb/leetcode/T6.java" />
-        <option value="$PROJECT_DIR$/src/com/bsb/leetcode/T18.java" />
+        <option value="$PROJECT_DIR$/src/com/bsb/leetcode/vip/bytedance/T24.java" />
+        <option value="$PROJECT_DIR$/src/com/bsb/leetcode/vip/bytedance/T92.java" />
+        <option value="$PROJECT_DIR$/src/com/bsb/leetcode/T1071.java" />
+        <option value="$PROJECT_DIR$/src/com/bsb/leetcode/vip/bytedance/T169.java" />
+        <option value="$PROJECT_DIR$/src/com/bsb/leetcode/vip/bytedance/T14.java" />
+        <option value="$PROJECT_DIR$/src/com/bsb/leetcode/vip/bytedance/T.java" />
+        <option value="$PROJECT_DIR$/src/com/bsb/leetcode/vip/bytedance/T141.java" />
+        <option value="$PROJECT_DIR$/src/com/bsb/leetcode/vip/bytedance/T148.java" />
+        <option value="$PROJECT_DIR$/src/com/bsb/leetcode/vip/bytedance/T695.java" />
+        <option value="$PROJECT_DIR$/src/com/bsb/leetcode/T695.java" />
+        <option value="$PROJECT_DIR$/src/com/bsb/leetcode/vip/bytedance/T0106.java" />
+        <option value="$PROJECT_DIR$/src/com/bsb/leetcode/vip/bytedance/T1160.java" />
+        <option value="$PROJECT_DIR$/src/com/bsb/leetcode/vip/bytedance/T32.java" />
+        <option value="$PROJECT_DIR$/src/com/bsb/leetcode/vip/bytedance/T198.java" />
+        <option value="$PROJECT_DIR$/src/com/bsb/leetcode/vip/bytedance/T409.java" />
+        <option value="$PROJECT_DIR$/src/com/bsb/leetcode/vip/bytedance/T410.java" />
+        <option value="$PROJECT_DIR$/src/com/bsb/leetcode/vip/bytedance/T124.java" />
+        <option value="$PROJECT_DIR$/src/com/bsb/meituan/test/T1.java" />
+        <option value="$PROJECT_DIR$/src/com/bsb/meituan/test/T2.java" />
+        <option value="$PROJECT_DIR$/src/com/bsb/meituan/test/T4.java" />
+        <option value="$PROJECT_DIR$/src/com/bsb/meituan/test/T3.java" />
+        <option value="$PROJECT_DIR$/src/com/bsb/meituan/spring/T1.java" />
+        <option value="$PROJECT_DIR$/src/com/bsb/meituan/spring/T4.java" />
+        <option value="$PROJECT_DIR$/src/com/bsb/meituan/spring/T2.java" />
+        <option value="$PROJECT_DIR$/src/com/bsb/leetcode/interview/T40.java" />
+        <option value="$PROJECT_DIR$/src/com/bsb/leetcode/vip/bytedance/T365.java" />
+        <option value="$PROJECT_DIR$/src/com/bsb/leetcode/vip/bytedance/T945.java" />
+        <option value="$PROJECT_DIR$/src/com/bsb/meituan/prepare/T206.java" />
+        <option value="$PROJECT_DIR$/src/com/bsb/meituan/prepare/T141.java" />
+        <option value="$PROJECT_DIR$/src/com/bsb/meituan/prepare/T23.java" />
+        <option value="$PROJECT_DIR$/src/com/bsb/meituan/prepare/QuickSort.java" />
+        <option value="$PROJECT_DIR$/src/com/bsb/meituan/prepare/T25.java" />
+        <option value="$PROJECT_DIR$/src/com/bsb/meituan/prepare/T46.java" />
+        <option value="$PROJECT_DIR$/src/com/bsb/leetcode/vip/bytedance/T876.java" />
+        <option value="$PROJECT_DIR$/src/com/bsb/meituan/prepare/T60.java" />
+        <option value="$PROJECT_DIR$/src/com/bsb/meituan/prepare/BubbleSort.java" />
+        <option value="$PROJECT_DIR$/src/com/bsb/meituan/prepare/InsertSort.java" />
+        <option value="$PROJECT_DIR$/src/com/bsb/meituan/prepare/SelectSort.java" />
+        <option value="$PROJECT_DIR$/src/com/bsb/meituan/prepare/T145.java" />
+        <option value="$PROJECT_DIR$/src/com/bsb/meituan/spring/T5.java" />
+        <option value="$PROJECT_DIR$/src/com/bsb/meituan/spring/T3.java" />
+        <option value="$PROJECT_DIR$/src/com/bsb/leetcode/interview/T1716.java" />
+        <option value="$PROJECT_DIR$/src/com/bsb/leetcode/vip/bytedance/T445.java" />
+        <option value="$PROJECT_DIR$/src/com/bsb/leetcode/vip/bytedance/T300.java" />
+        <option value="$PROJECT_DIR$/src/com/bsb/leetcode/vip/bytedance/T235.java" />
+        <option value="$PROJECT_DIR$/src/com/bsb/meituan/prepare/T236.java" />
+        <option value="$PROJECT_DIR$/src/com/bsb/meituan/prepare/Test.java" />
+        <option value="$PROJECT_DIR$/src/com/bsb/leetcode/vip/bytedance/T236.java" />
+        <option value="$PROJECT_DIR$/src/com/bsb/leetcode/vip/bytedance/T105.java" />
+        <option value="$PROJECT_DIR$/src/com/bsb/leetcode/T1162.java" />
+        <option value="$PROJECT_DIR$/src/com/bsb/leetcode/vip/bytedance/T55.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" fullScreen="true">
-    <option name="y" value="23" />
     <option name="width" value="1680" />
-    <option name="height" value="1027" />
+    <option name="height" value="1050" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
+      <hideEmptyPackages ProjectPane="false" />
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -280,83 +309,39 @@
             </path>
             <path>
               <item name="LeetCode" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="LeetCode" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="bsb" type="462c0819:PsiDirectoryNode" />
+              <item name="leetcode" type="462c0819:PsiDirectoryNode" />
+              <item name="bytedance" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="LeetCode" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; 1.8.0_201 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="LeetCode" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="bsb" type="462c0819:PsiDirectoryNode" />
+              <item name="meituan" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="LeetCode" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; 1.8.0_201 &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="dnsns.jar" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="LeetCode" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; 1.8.0_201 &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="dnsns.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="META-INF" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="LeetCode" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; 1.8.0_201 &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="dnsns.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="dns" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="LeetCode" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; 1.8.0_201 &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="LeetCode" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; 1.8.0_201 &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="LeetCode" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; 1.8.0_201 &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="util" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="LeetCode" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; 1.8.0_201 &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="util" type="462c0819:PsiDirectoryNode" />
-              <item name="concurrent" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="LeetCode" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; 1.8.0_201 &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="util" type="462c0819:PsiDirectoryNode" />
-              <item name="concurrent" type="462c0819:PsiDirectoryNode" />
-              <item name="locks" type="462c0819:PsiDirectoryNode" />
+              <item name="LeetCode" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="bsb" type="462c0819:PsiDirectoryNode" />
+              <item name="meituan" type="462c0819:PsiDirectoryNode" />
+              <item name="prepare" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1577523812670" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1585061169615" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -365,6 +350,14 @@
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.bsb.leetcode" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/com/bsb/test" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -378,13 +371,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.T6">
-    <configuration name="T1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.bsb.leetcode.topic.recursion.T1" />
+  <component name="RunManager" selected="Application.Test">
+    <configuration name="BubbleSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.bsb.meituan.prepare.BubbleSort" />
       <module name="LeetCode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.bsb.leetcode.topic.recursion.*" />
+          <option name="PATTERN" value="com.bsb.meituan.prepare.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -392,12 +385,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="T15" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.bsb.leetcode.T15" />
+    <configuration name="InsertSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.bsb.meituan.prepare.InsertSort" />
       <module name="LeetCode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.bsb.leetcode.*" />
+          <option name="PATTERN" value="com.bsb.meituan.prepare.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -405,12 +398,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="T16" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.bsb.leetcode.T16" />
+    <configuration name="T445" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.bsb.leetcode.vip.bytedance.T445" />
       <module name="LeetCode" />
+      <option name="VM_PARAMETERS" value="-Xmx1024m" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.bsb.leetcode.*" />
+          <option name="PATTERN" value="com.bsb.leetcode.vip.bytedance.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -418,12 +412,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="T17" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.bsb.leetcode.T17" />
+    <configuration name="T5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.bsb.meituan.spring.T5" />
       <module name="LeetCode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.bsb.leetcode.*" />
+          <option name="PATTERN" value="com.bsb.meituan.spring.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -431,12 +425,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="T6" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.bsb.leetcode.T6" />
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.bsb.meituan.prepare.Test" />
       <module name="LeetCode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.bsb.leetcode.*" />
+          <option name="PATTERN" value="com.bsb.meituan.prepare.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -444,13 +438,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Application.BubbleSort" />
+      <item itemvalue="Application.InsertSort" />
+      <item itemvalue="Application.T5" />
+      <item itemvalue="Application.T445" />
+      <item itemvalue="Application.Test" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.T6" />
-        <item itemvalue="Application.T17" />
-        <item itemvalue="Application.T1" />
-        <item itemvalue="Application.T16" />
-        <item itemvalue="Application.T15" />
+        <item itemvalue="Application.Test" />
+        <item itemvalue="Application.T445" />
+        <item itemvalue="Application.T5" />
+        <item itemvalue="Application.InsertSort" />
+        <item itemvalue="Application.BubbleSort" />
       </list>
     </recent_temporary>
   </component>
@@ -509,89 +510,407 @@
       <workItem from="1576294767810" duration="613000" />
       <workItem from="1576419257705" duration="2291000" />
       <workItem from="1577509238732" duration="4996000" />
-      <workItem from="1577584569592" duration="225000" />
+      <workItem from="1577584569592" duration="30505000" />
+      <workItem from="1578115870194" duration="3462000" />
+      <workItem from="1578969378958" duration="30123000" />
+      <workItem from="1580127037431" duration="17112000" />
+      <workItem from="1580382206241" duration="21595000" />
+      <workItem from="1580711540810" duration="91445000" />
+      <workItem from="1581565396710" duration="52259000" />
+      <workItem from="1581909219586" duration="48877000" />
+      <workItem from="1582254760380" duration="12796000" />
+      <workItem from="1582340158361" duration="14052000" />
+      <workItem from="1582423779393" duration="28920000" />
+      <workItem from="1582600887808" duration="10568000" />
+      <workItem from="1582702179506" duration="27625000" />
+      <workItem from="1582848063898" duration="13329000" />
+      <workItem from="1582941462448" duration="5656000" />
+      <workItem from="1582992196167" duration="367000" />
+      <workItem from="1583029535231" duration="16819000" />
+      <workItem from="1583119936397" duration="31943000" />
+      <workItem from="1583375955278" duration="9806000" />
+      <workItem from="1583478566650" duration="10813000" />
+      <workItem from="1583552047491" duration="1375000" />
+      <workItem from="1583566192931" duration="23764000" />
+      <workItem from="1583764616644" duration="1610000" />
+      <workItem from="1583803298302" duration="319000" />
+      <workItem from="1583819777999" duration="789000" />
+      <workItem from="1583929231220" duration="6805000" />
+      <workItem from="1584024822275" duration="2747000" />
+      <workItem from="1584108866859" duration="1900000" />
+      <workItem from="1584192479257" duration="257000" />
+      <workItem from="1584281541966" duration="833000" />
+      <workItem from="1584366763485" duration="1489000" />
+      <workItem from="1584448169093" duration="141000" />
+      <workItem from="1584452459976" duration="1147000" />
+      <workItem from="1584537194788" duration="17255000" />
+      <workItem from="1584669453533" duration="603000" />
+      <workItem from="1584709968662" duration="1356000" />
+      <workItem from="1584838971978" duration="6000" />
+      <workItem from="1584880435914" duration="1444000" />
+      <workItem from="1584926562496" duration="161000" />
+      <workItem from="1584931487942" duration="7527000" />
+      <workItem from="1584974867956" duration="1365000" />
+      <workItem from="1585020239009" duration="4804000" />
+      <workItem from="1585038319731" duration="7523000" />
+      <workItem from="1585098076947" duration="526000" />
+      <workItem from="1585100732548" duration="363000" />
+      <workItem from="1585488804538" duration="1556000" />
     </task>
-    <task id="LOCAL-00001" summary="leetcode">
-      <created>1554655110843</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
+    <task id="LOCAL-00081" summary="update 3 greed">
+      <created>1582283581009</created>
+      <option name="number" value="00081" />
+      <option name="presentableId" value="LOCAL-00081" />
       <option name="project" value="LOCAL" />
-      <updated>1554655110843</updated>
+      <updated>1582283581009</updated>
     </task>
-    <task id="LOCAL-00002" summary="leetcode">
-      <created>1555512227862</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
+    <task id="LOCAL-00082" summary="update 6 trees">
+      <created>1582291271433</created>
+      <option name="number" value="00082" />
+      <option name="presentableId" value="LOCAL-00082" />
       <option name="project" value="LOCAL" />
-      <updated>1555512227863</updated>
+      <updated>1582291271433</updated>
     </task>
-    <task id="LOCAL-00003" summary="update">
-      <created>1565447512468</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
+    <task id="LOCAL-00083" summary="update 3 trees">
+      <created>1582345322766</created>
+      <option name="number" value="00083" />
+      <option name="presentableId" value="LOCAL-00083" />
       <option name="project" value="LOCAL" />
-      <updated>1565447512468</updated>
+      <updated>1582345322780</updated>
     </task>
-    <task id="LOCAL-00004" summary="update">
-      <created>1565448761498</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
+    <task id="LOCAL-00084" summary="update 3 trees">
+      <created>1582367293071</created>
+      <option name="number" value="00084" />
+      <option name="presentableId" value="LOCAL-00084" />
       <option name="project" value="LOCAL" />
-      <updated>1565448761498</updated>
+      <updated>1582367293071</updated>
     </task>
-    <task id="LOCAL-00005" summary="update">
-      <created>1568799139363</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
+    <task id="LOCAL-00085" summary="update 4 trees">
+      <created>1582379673108</created>
+      <option name="number" value="00085" />
+      <option name="presentableId" value="LOCAL-00085" />
       <option name="project" value="LOCAL" />
-      <updated>1568799139363</updated>
+      <updated>1582379673108</updated>
     </task>
-    <task id="LOCAL-00006" summary="update">
-      <created>1568901774715</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
+    <task id="LOCAL-00086" summary="20周双周竞赛 2AC 1超时 T4本来我就想的是排列组合 奈何没写出来">
+      <created>1582388775628</created>
+      <option name="number" value="00086" />
+      <option name="presentableId" value="LOCAL-00086" />
       <option name="project" value="LOCAL" />
-      <updated>1568901774715</updated>
+      <updated>1582388775628</updated>
     </task>
-    <task id="LOCAL-00007" summary="update">
-      <created>1568988212412</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
+    <task id="LOCAL-00087" summary="18周竞赛 2道AC 1道超时 1无解">
+      <created>1582437155693</created>
+      <option name="number" value="00087" />
+      <option name="presentableId" value="LOCAL-00087" />
       <option name="project" value="LOCAL" />
-      <updated>1568988212412</updated>
+      <updated>1582437155695</updated>
     </task>
-    <task id="LOCAL-00008" summary="update">
-      <created>1573280664743</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
+    <task id="LOCAL-00088" summary="update 1 dp of stock">
+      <created>1582467309381</created>
+      <option name="number" value="00088" />
+      <option name="presentableId" value="LOCAL-00088" />
       <option name="project" value="LOCAL" />
-      <updated>1573280664743</updated>
+      <updated>1582467309381</updated>
     </task>
-    <task id="LOCAL-00009" summary="update">
-      <created>1573377903074</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
+    <task id="LOCAL-00089" summary="update 5 深搜">
+      <created>1582544120271</created>
+      <option name="number" value="00089" />
+      <option name="presentableId" value="LOCAL-00089" />
       <option name="project" value="LOCAL" />
-      <updated>1573377903074</updated>
+      <updated>1582544120271</updated>
     </task>
-    <task id="LOCAL-00010" summary="update">
-      <created>1575122691957</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
+    <task id="LOCAL-00090" summary="update 1 dfs">
+      <created>1582566140507</created>
+      <option name="number" value="00090" />
+      <option name="presentableId" value="LOCAL-00090" />
       <option name="project" value="LOCAL" />
-      <updated>1575122691958</updated>
+      <updated>1582566140507</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00091" summary="update 2 深搜">
+      <created>1582605284151</created>
+      <option name="number" value="00091" />
+      <option name="presentableId" value="LOCAL-00091" />
+      <option name="project" value="LOCAL" />
+      <updated>1582605284152</updated>
+    </task>
+    <task id="LOCAL-00092" summary="update">
+      <created>1582638392546</created>
+      <option name="number" value="00092" />
+      <option name="presentableId" value="LOCAL-00092" />
+      <option name="project" value="LOCAL" />
+      <updated>1582638392546</updated>
+    </task>
+    <task id="LOCAL-00093" summary="update">
+      <created>1582709425412</created>
+      <option name="number" value="00093" />
+      <option name="presentableId" value="LOCAL-00093" />
+      <option name="project" value="LOCAL" />
+      <updated>1582709425413</updated>
+    </task>
+    <task id="LOCAL-00094" summary="update">
+      <created>1582728644332</created>
+      <option name="number" value="00094" />
+      <option name="presentableId" value="LOCAL-00094" />
+      <option name="project" value="LOCAL" />
+      <updated>1582728644332</updated>
+    </task>
+    <task id="LOCAL-00095" summary="update">
+      <created>1582773625497</created>
+      <option name="number" value="00095" />
+      <option name="presentableId" value="LOCAL-00095" />
+      <option name="project" value="LOCAL" />
+      <updated>1582773625497</updated>
+    </task>
+    <task id="LOCAL-00096" summary="update">
+      <created>1582794569863</created>
+      <option name="number" value="00096" />
+      <option name="presentableId" value="LOCAL-00096" />
+      <option name="project" value="LOCAL" />
+      <updated>1582794569863</updated>
+    </task>
+    <task id="LOCAL-00097" summary="update">
+      <created>1582814027365</created>
+      <option name="number" value="00097" />
+      <option name="presentableId" value="LOCAL-00097" />
+      <option name="project" value="LOCAL" />
+      <updated>1582814027365</updated>
+    </task>
+    <task id="LOCAL-00098" summary="update 2 dfs">
+      <created>1582861375713</created>
+      <option name="number" value="00098" />
+      <option name="presentableId" value="LOCAL-00098" />
+      <option name="project" value="LOCAL" />
+      <updated>1582861375715</updated>
+    </task>
+    <task id="LOCAL-00099" summary="update 4 dfs || dsu || bfs">
+      <created>1582898660978</created>
+      <option name="number" value="00099" />
+      <option name="presentableId" value="LOCAL-00099" />
+      <option name="project" value="LOCAL" />
+      <updated>1582898660978</updated>
+    </task>
+    <task id="LOCAL-00100" summary="update 4 trees">
+      <created>1582946358240</created>
+      <option name="number" value="00100" />
+      <option name="presentableId" value="LOCAL-00100" />
+      <option name="project" value="LOCAL" />
+      <updated>1582946358241</updated>
+    </task>
+    <task id="LOCAL-00101" summary="update">
+      <created>1582965610800</created>
+      <option name="number" value="00101" />
+      <option name="presentableId" value="LOCAL-00101" />
+      <option name="project" value="LOCAL" />
+      <updated>1582965610800</updated>
+    </task>
+    <task id="LOCAL-00102" summary="178th weekly contest">
+      <created>1583043593778</created>
+      <option name="number" value="00102" />
+      <option name="presentableId" value="LOCAL-00102" />
+      <option name="project" value="LOCAL" />
+      <updated>1583043593780</updated>
+    </task>
+    <task id="LOCAL-00103" summary="update">
+      <created>1583068032461</created>
+      <option name="number" value="00103" />
+      <option name="presentableId" value="LOCAL-00103" />
+      <option name="project" value="LOCAL" />
+      <updated>1583068032461</updated>
+    </task>
+    <task id="LOCAL-00104" summary="update">
+      <created>1583125190121</created>
+      <option name="number" value="00104" />
+      <option name="presentableId" value="LOCAL-00104" />
+      <option name="project" value="LOCAL" />
+      <updated>1583125190123</updated>
+    </task>
+    <task id="LOCAL-00105" summary="update">
+      <created>1583156987771</created>
+      <option name="number" value="00105" />
+      <option name="presentableId" value="LOCAL-00105" />
+      <option name="project" value="LOCAL" />
+      <updated>1583156987771</updated>
+    </task>
+    <task id="LOCAL-00106" summary="update">
+      <created>1583244005004</created>
+      <option name="number" value="00106" />
+      <option name="presentableId" value="LOCAL-00106" />
+      <option name="project" value="LOCAL" />
+      <updated>1583244005004</updated>
+    </task>
+    <task id="LOCAL-00107" summary="update from bytedance">
+      <created>1583295386978</created>
+      <option name="number" value="00107" />
+      <option name="presentableId" value="LOCAL-00107" />
+      <option name="project" value="LOCAL" />
+      <updated>1583295386978</updated>
+    </task>
+    <task id="LOCAL-00108" summary="update from leetcode bytedance">
+      <created>1583318061228</created>
+      <option name="number" value="00108" />
+      <option name="presentableId" value="LOCAL-00108" />
+      <option name="project" value="LOCAL" />
+      <updated>1583318061228</updated>
+    </task>
+    <task id="LOCAL-00109" summary="update">
+      <created>1583330176221</created>
+      <option name="number" value="00109" />
+      <option name="presentableId" value="LOCAL-00109" />
+      <option name="project" value="LOCAL" />
+      <updated>1583330176222</updated>
+    </task>
+    <task id="LOCAL-00110" summary="update from leetcode bytedance &amp; daily attendance">
+      <created>1583382459517</created>
+      <option name="number" value="00110" />
+      <option name="presentableId" value="LOCAL-00110" />
+      <option name="project" value="LOCAL" />
+      <updated>1583382459519</updated>
+    </task>
+    <task id="LOCAL-00111" summary="update from leetcode bytedance">
+      <created>1583406455105</created>
+      <option name="number" value="00111" />
+      <option name="presentableId" value="LOCAL-00111" />
+      <option name="project" value="LOCAL" />
+      <updated>1583406455105</updated>
+    </task>
+    <task id="LOCAL-00112" summary="update from leetcode bytedance">
+      <created>1583490480231</created>
+      <option name="number" value="00112" />
+      <option name="presentableId" value="LOCAL-00112" />
+      <option name="project" value="LOCAL" />
+      <updated>1583490480232</updated>
+    </task>
+    <task id="LOCAL-00113" summary="update">
+      <created>1583496562602</created>
+      <option name="number" value="00113" />
+      <option name="presentableId" value="LOCAL-00113" />
+      <option name="project" value="LOCAL" />
+      <updated>1583496562602</updated>
+    </task>
+    <task id="LOCAL-00114" summary="update">
+      <created>1583572131209</created>
+      <option name="number" value="00114" />
+      <option name="presentableId" value="LOCAL-00114" />
+      <option name="project" value="LOCAL" />
+      <updated>1583572131213</updated>
+    </task>
+    <task id="LOCAL-00115" summary="update">
+      <created>1583589005881</created>
+      <option name="number" value="00115" />
+      <option name="presentableId" value="LOCAL-00115" />
+      <option name="project" value="LOCAL" />
+      <updated>1583589005881</updated>
+    </task>
+    <task id="LOCAL-00116" summary="update">
+      <created>1583633499488</created>
+      <option name="number" value="00116" />
+      <option name="presentableId" value="LOCAL-00116" />
+      <option name="project" value="LOCAL" />
+      <updated>1583633499488</updated>
+    </task>
+    <task id="LOCAL-00117" summary="update">
+      <created>1583641953941</created>
+      <option name="number" value="00117" />
+      <option name="presentableId" value="LOCAL-00117" />
+      <option name="project" value="LOCAL" />
+      <updated>1583641953941</updated>
+    </task>
+    <task id="LOCAL-00118" summary="update">
+      <created>1583768299495</created>
+      <option name="number" value="00118" />
+      <option name="presentableId" value="LOCAL-00118" />
+      <option name="project" value="LOCAL" />
+      <updated>1583768299495</updated>
+    </task>
+    <task id="LOCAL-00119" summary="update">
+      <created>1583940253090</created>
+      <option name="number" value="00119" />
+      <option name="presentableId" value="LOCAL-00119" />
+      <option name="project" value="LOCAL" />
+      <updated>1583940253090</updated>
+    </task>
+    <task id="LOCAL-00120" summary="update">
+      <created>1584029018958</created>
+      <option name="number" value="00120" />
+      <option name="presentableId" value="LOCAL-00120" />
+      <option name="project" value="LOCAL" />
+      <updated>1584029018959</updated>
+    </task>
+    <task id="LOCAL-00121" summary="update">
+      <created>1584111214772</created>
+      <option name="number" value="00121" />
+      <option name="presentableId" value="LOCAL-00121" />
+      <option name="project" value="LOCAL" />
+      <updated>1584111214772</updated>
+    </task>
+    <task id="LOCAL-00122" summary="update">
+      <created>1584282193795</created>
+      <option name="number" value="00122" />
+      <option name="presentableId" value="LOCAL-00122" />
+      <option name="project" value="LOCAL" />
+      <updated>1584282193796</updated>
+    </task>
+    <task id="LOCAL-00123" summary="update">
+      <created>1584453872020</created>
+      <option name="number" value="00123" />
+      <option name="presentableId" value="LOCAL-00123" />
+      <option name="project" value="LOCAL" />
+      <updated>1584453872022</updated>
+    </task>
+    <task id="LOCAL-00124" summary="update">
+      <created>1584542426856</created>
+      <option name="number" value="00124" />
+      <option name="presentableId" value="LOCAL-00124" />
+      <option name="project" value="LOCAL" />
+      <updated>1584542426857</updated>
+    </task>
+    <task id="LOCAL-00125" summary="update meituan test">
+      <created>1584614034373</created>
+      <option name="number" value="00125" />
+      <option name="presentableId" value="LOCAL-00125" />
+      <option name="project" value="LOCAL" />
+      <updated>1584614034373</updated>
+    </task>
+    <task id="LOCAL-00126" summary="update 4 from meituan spring contest">
+      <created>1584624668700</created>
+      <option name="number" value="00126" />
+      <option name="presentableId" value="LOCAL-00126" />
+      <option name="project" value="LOCAL" />
+      <updated>1584624668700</updated>
+    </task>
+    <task id="LOCAL-00127" summary="update">
+      <created>1584882146787</created>
+      <option name="number" value="00127" />
+      <option name="presentableId" value="LOCAL-00127" />
+      <option name="project" value="LOCAL" />
+      <updated>1584882146788</updated>
+    </task>
+    <task id="LOCAL-00128" summary="update">
+      <created>1585017514462</created>
+      <option name="number" value="00128" />
+      <option name="presentableId" value="LOCAL-00128" />
+      <option name="project" value="LOCAL" />
+      <updated>1585017514463</updated>
+    </task>
+    <task id="LOCAL-00129" summary="update">
+      <created>1585061143724</created>
+      <option name="number" value="00129" />
+      <option name="presentableId" value="LOCAL-00129" />
+      <option name="project" value="LOCAL" />
+      <updated>1585061143734</updated>
+    </task>
+    <option name="localTasksCounter" value="130" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="115506000" />
+    <option name="totallyTimeSpent" value="681018000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14774115" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24236874" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -599,18 +918,18 @@
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.29795918" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.33469388" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32959184" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.41428572" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4255102" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.32941177" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.76336634" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.7632653" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="12" weight="0.32871288" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.32857144" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -627,7 +946,30 @@
     <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="leetcode" />
+    <MESSAGE value="两题类似的规律&#10;第一题：&#10;  回溯 =&gt; 分治 =&gt; 记忆化填cache =&gt; 动态规划&#10;第二题：&#10;  暴搜 =&gt; 记忆化填cache =&gt; 动态规划&#10;两题的动态规划思路其实都是由记忆化填充cache的过程来思考的 这又长见识了" />
+    <MESSAGE value="update 3 tree" />
+    <MESSAGE value="update 2 greed" />
+    <MESSAGE value="update 4 tree" />
+    <MESSAGE value="update 5 tree" />
+    <MESSAGE value="update 4 greed" />
+    <MESSAGE value="update 3 greed" />
+    <MESSAGE value="update 6 trees" />
+    <MESSAGE value="update 3 trees" />
+    <MESSAGE value="20周双周竞赛 2AC 1超时 T4本来我就想的是排列组合 奈何没写出来" />
+    <MESSAGE value="18周竞赛 2道AC 1道超时 1无解" />
+    <MESSAGE value="update 1 dp of stock" />
+    <MESSAGE value="update 5 深搜" />
+    <MESSAGE value="update 1 dfs" />
+    <MESSAGE value="update 2 深搜" />
+    <MESSAGE value="update 2 dfs" />
+    <MESSAGE value="update 4 dfs || dsu || bfs" />
+    <MESSAGE value="update 4 trees" />
+    <MESSAGE value="178th weekly contest" />
+    <MESSAGE value="update from bytedance" />
+    <MESSAGE value="update from leetcode bytedance &amp; daily attendance" />
+    <MESSAGE value="update from leetcode bytedance" />
+    <MESSAGE value="update meituan test" />
+    <MESSAGE value="update 4 from meituan spring contest" />
     <MESSAGE value="update" />
     <option name="LAST_COMMIT_MESSAGE" value="update" />
   </component>
@@ -809,13 +1151,13 @@
           <option name="timeStamp" value="52" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/bsb/leetcode/Tx.java</url>
+          <url>file://$PROJECT_DIR$/src/com/bsb/tencent/Tx.java</url>
           <line>12</line>
           <properties />
           <option name="timeStamp" value="53" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/bsb/leetcode/Tx.java</url>
+          <url>file://$PROJECT_DIR$/src/com/bsb/tencent/Tx.java</url>
           <line>27</line>
           <properties />
           <option name="timeStamp" value="54" />
@@ -886,440 +1228,1636 @@
           <properties />
           <option name="timeStamp" value="71" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/bsb/leetcode/T20.java</url>
+          <line>15</line>
+          <properties />
+          <option name="timeStamp" value="72" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/bsb/leetcode/T20.java</url>
+          <line>37</line>
+          <properties />
+          <option name="timeStamp" value="73" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/bsb/leetcode/T27.java</url>
+          <line>12</line>
+          <properties />
+          <option name="timeStamp" value="74" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/bsb/leetcode/T27.java</url>
+          <line>22</line>
+          <properties />
+          <option name="timeStamp" value="75" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/bsb/leetcode/T28.java</url>
+          <line>13</line>
+          <properties />
+          <option name="timeStamp" value="76" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/bsb/leetcode/T28.java</url>
+          <line>25</line>
+          <properties />
+          <option name="timeStamp" value="77" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/bsb/leetcode/T33.java</url>
+          <line>32</line>
+          <properties />
+          <option name="timeStamp" value="81" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/bsb/leetcode/T34.java</url>
+          <line>18</line>
+          <properties />
+          <option name="timeStamp" value="83" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/bsb/leetcode/T34.java</url>
+          <line>40</line>
+          <properties />
+          <option name="timeStamp" value="84" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/bsb/leetcode/T38.java</url>
+          <line>15</line>
+          <properties />
+          <option name="timeStamp" value="85" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/bsb/leetcode/T38.java</url>
+          <line>26</line>
+          <properties />
+          <option name="timeStamp" value="86" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/bsb/leetcode/T39.java</url>
+          <line>18</line>
+          <properties />
+          <option name="timeStamp" value="87" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/bsb/leetcode/T39.java</url>
+          <line>29</line>
+          <properties />
+          <option name="timeStamp" value="88" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/bsb/leetcode/T46.java</url>
+          <line>22</line>
+          <properties />
+          <option name="timeStamp" value="89" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/bsb/leetcode/T46.java</url>
+          <line>33</line>
+          <properties />
+          <option name="timeStamp" value="90" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/bsb/leetcode/T63.java</url>
+          <line>12</line>
+          <properties />
+          <option name="timeStamp" value="91" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/bsb/leetcode/T63.java</url>
+          <line>44</line>
+          <properties />
+          <option name="timeStamp" value="92" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/bsb/leetcode/T93.java</url>
+          <line>12</line>
+          <properties />
+          <option name="timeStamp" value="93" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/bsb/leetcode/T93.java</url>
+          <line>28</line>
+          <properties />
+          <option name="timeStamp" value="94" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/bsb/leetcode/T93.java</url>
+          <line>33</line>
+          <properties />
+          <option name="timeStamp" value="95" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/bsb/leetcode/T93.java</url>
+          <line>35</line>
+          <properties />
+          <option name="timeStamp" value="97" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/bsb/leetcode/T205.java</url>
+          <line>20</line>
+          <properties />
+          <option name="timeStamp" value="99" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/bsb/leetcode/T214.java</url>
+          <line>12</line>
+          <properties />
+          <option name="timeStamp" value="100" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/bsb/leetcode/T214.java</url>
+          <line>29</line>
+          <properties />
+          <option name="timeStamp" value="101" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/bsb/leetcode/T229.java</url>
+          <line>51</line>
+          <properties />
+          <option name="timeStamp" value="103" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/bsb/leetcode/T229.java</url>
+          <line>16</line>
+          <properties />
+          <option name="timeStamp" value="104" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/bsb/leetcode/T122.java</url>
+          <line>49</line>
+          <properties />
+          <option name="timeStamp" value="105" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/bsb/leetcode/T122.java</url>
+          <line>10</line>
+          <properties />
+          <option name="timeStamp" value="106" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/bsb/leetcode/T125.java</url>
+          <line>9</line>
+          <properties />
+          <option name="timeStamp" value="107" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/bsb/leetcode/T125.java</url>
+          <line>25</line>
+          <properties />
+          <option name="timeStamp" value="108" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/bsb/leetcode/T151.java</url>
+          <line>10</line>
+          <properties />
+          <option name="timeStamp" value="109" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/bsb/leetcode/T151.java</url>
+          <line>26</line>
+          <properties />
+          <option name="timeStamp" value="110" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/bsb/leetcode/T152.java</url>
+          <line>9</line>
+          <properties />
+          <option name="timeStamp" value="113" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/bsb/leetcode/T152.java</url>
+          <line>20</line>
+          <properties />
+          <option name="timeStamp" value="114" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/bsb/leetcode/T169.java</url>
+          <line>12</line>
+          <properties />
+          <option name="timeStamp" value="115" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/bsb/leetcode/T169.java</url>
+          <line>22</line>
+          <properties />
+          <option name="timeStamp" value="116" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/bsb/leetcode/T76.java</url>
+          <line>19</line>
+          <properties />
+          <option name="timeStamp" value="117" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/bsb/leetcode/T76.java</url>
+          <line>44</line>
+          <properties />
+          <option name="timeStamp" value="118" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/bsb/leetcode/T77.java</url>
+          <line>31</line>
+          <properties />
+          <option name="timeStamp" value="119" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/bsb/leetcode/T77.java</url>
+          <line>18</line>
+          <properties />
+          <option name="timeStamp" value="121" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/bsb/leetcode/T78.java</url>
+          <line>19</line>
+          <properties />
+          <option name="timeStamp" value="122" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/bsb/leetcode/T78.java</url>
+          <line>23</line>
+          <properties />
+          <option name="timeStamp" value="123" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/bsb/leetcode/T59.java</url>
+          <line>12</line>
+          <properties />
+          <option name="timeStamp" value="124" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/bsb/leetcode/T59.java</url>
+          <line>27</line>
+          <properties />
+          <option name="timeStamp" value="125" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/bsb/leetcode/T64.java</url>
+          <line>14</line>
+          <properties />
+          <option name="timeStamp" value="126" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/bsb/leetcode/T64.java</url>
+          <line>28</line>
+          <properties />
+          <option name="timeStamp" value="127" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/bsb/test/Test3.java</url>
+          <line>21</line>
+          <properties />
+          <option name="timeStamp" value="132" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/bsb/test/Test5.java</url>
+          <line>9</line>
+          <properties />
+          <option name="timeStamp" value="134" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/bsb/test/Test5.java</url>
+          <line>18</line>
+          <properties />
+          <option name="timeStamp" value="135" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/bsb/leetcode/T321.java</url>
+          <line>33</line>
+          <properties />
+          <option name="timeStamp" value="136" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/bsb/leetcode/T402.java</url>
+          <line>17</line>
+          <properties />
+          <option name="timeStamp" value="139" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/bsb/leetcode/T402.java</url>
+          <line>35</line>
+          <properties />
+          <option name="timeStamp" value="140" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/bsb/leetcode/T452.java</url>
+          <line>15</line>
+          <properties />
+          <option name="timeStamp" value="144" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/bsb/leetcode/T452.java</url>
+          <line>22</line>
+          <properties />
+          <option name="timeStamp" value="145" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/bsb/leetcode/T621.java</url>
+          <line>35</line>
+          <properties />
+          <option name="timeStamp" value="147" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/bsb/leetcode/T621.java</url>
+          <line>22</line>
+          <properties />
+          <option name="timeStamp" value="148" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/bsb/leetcode/T659.java</url>
+          <line>19</line>
+          <properties />
+          <option name="timeStamp" value="149" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/bsb/leetcode/T659.java</url>
+          <line>35</line>
+          <properties />
+          <option name="timeStamp" value="150" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/bsb/leetcode/T659.java</url>
+          <line>43</line>
+          <properties />
+          <option name="timeStamp" value="152" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/bsb/leetcode/T659.java</url>
+          <line>62</line>
+          <properties />
+          <option name="timeStamp" value="153" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/bsb/leetcode/T123.java</url>
+          <line>32</line>
+          <properties />
+          <option name="timeStamp" value="155" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/bsb/leetcode/T123.java</url>
+          <line>21</line>
+          <properties />
+          <option name="timeStamp" value="156" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/bsb/leetcode/T763.java</url>
+          <line>16</line>
+          <properties />
+          <option name="timeStamp" value="158" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/bsb/leetcode/T763.java</url>
+          <line>30</line>
+          <properties />
+          <option name="timeStamp" value="159" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/bsb/leetcode/T767.java</url>
+          <line>25</line>
+          <properties />
+          <option name="timeStamp" value="160" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/bsb/leetcode/T767.java</url>
+          <line>38</line>
+          <properties />
+          <option name="timeStamp" value="161" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/bsb/leetcode/T763.java</url>
+          <line>44</line>
+          <properties />
+          <option name="timeStamp" value="162" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/bsb/leetcode/T763.java</url>
+          <line>52</line>
+          <properties />
+          <option name="timeStamp" value="163" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/bsb/leetcode/T860.java</url>
+          <line>11</line>
+          <properties />
+          <option name="timeStamp" value="164" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/bsb/leetcode/T860.java</url>
+          <line>30</line>
+          <properties />
+          <option name="timeStamp" value="165" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/bsb/leetcode/T861.java</url>
+          <line>15</line>
+          <properties />
+          <option name="timeStamp" value="166" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/bsb/leetcode/T861.java</url>
+          <line>40</line>
+          <properties />
+          <option name="timeStamp" value="167" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/bsb/leetcode/T910.java</url>
+          <line>12</line>
+          <properties />
+          <option name="timeStamp" value="168" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/bsb/leetcode/T910.java</url>
+          <line>20</line>
+          <properties />
+          <option name="timeStamp" value="169" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/bsb/leetcode/T1007.java</url>
+          <line>50</line>
+          <properties />
+          <option name="timeStamp" value="173" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/bsb/leetcode/T1007.java</url>
+          <line>66</line>
+          <properties />
+          <option name="timeStamp" value="174" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/bsb/leetcode/T97.java</url>
+          <line>64</line>
+          <properties />
+          <option name="timeStamp" value="175" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/bsb/leetcode/T127.java</url>
+          <line>41</line>
+          <properties />
+          <option name="timeStamp" value="177" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/bsb/leetcode/T190.java</url>
+          <line>12</line>
+          <properties />
+          <option name="timeStamp" value="181" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/bsb/leetcode/T190.java</url>
+          <line>13</line>
+          <properties />
+          <option name="timeStamp" value="182" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/bsb/leetcode/T220.java</url>
+          <line>12</line>
+          <properties />
+          <option name="timeStamp" value="185" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/bsb/leetcode/T220.java</url>
+          <line>17</line>
+          <properties />
+          <option name="timeStamp" value="187" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/bsb/leetcode/T239.java</url>
+          <line>48</line>
+          <properties />
+          <option name="timeStamp" value="190" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/bsb/leetcode/T239.java</url>
+          <line>61</line>
+          <properties />
+          <option name="timeStamp" value="191" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/bsb/leetcode/T239.java</url>
+          <line>35</line>
+          <properties />
+          <option name="timeStamp" value="192" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/bsb/leetcode/T239.java</url>
+          <line>38</line>
+          <properties />
+          <option name="timeStamp" value="193" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/bsb/leetcode/contest/seventeenth/T2.java</url>
+          <line>22</line>
+          <properties />
+          <option name="timeStamp" value="194" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/bsb/leetcode/contest/seventeenth/T2.java</url>
+          <line>27</line>
+          <properties />
+          <option name="timeStamp" value="195" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/bsb/leetcode/contest/seventeenth/T3.java</url>
+          <line>22</line>
+          <properties />
+          <option name="timeStamp" value="203" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/bsb/leetcode/contest/seventeenth/T3.java</url>
+          <line>36</line>
+          <properties />
+          <option name="timeStamp" value="205" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/bsb/leetcode/contest/seventeenth/T3.java</url>
+          <line>67</line>
+          <properties />
+          <option name="timeStamp" value="206" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/bsb/leetcode/T542.java</url>
+          <line>26</line>
+          <properties />
+          <option name="timeStamp" value="207" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/bsb/leetcode/T542.java</url>
+          <line>50</line>
+          <properties />
+          <option name="timeStamp" value="208" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/bsb/leetcode/T494.java</url>
+          <line>53</line>
+          <properties />
+          <option name="timeStamp" value="209" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/bsb/leetcode/T494.java</url>
+          <line>58</line>
+          <properties />
+          <option name="timeStamp" value="210" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/bsb/leetcode/T546.java</url>
+          <line>20</line>
+          <properties />
+          <option name="timeStamp" value="211" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/bsb/leetcode/T546.java</url>
+          <line>30</line>
+          <properties />
+          <option name="timeStamp" value="212" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/bsb/leetcode/T322.java</url>
+          <line>56</line>
+          <properties />
+          <option name="timeStamp" value="213" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/bsb/leetcode/T322.java</url>
+          <line>66</line>
+          <properties />
+          <option name="timeStamp" value="214" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/bsb/leetcode/T563.java</url>
+          <line>12</line>
+          <properties />
+          <option name="timeStamp" value="216" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/bsb/leetcode/T563.java</url>
+          <line>14</line>
+          <properties />
+          <option name="timeStamp" value="217" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/bsb/leetcode/T563.java</url>
+          <line>18</line>
+          <properties />
+          <option name="timeStamp" value="218" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/bsb/leetcode/T563.java</url>
+          <line>22</line>
+          <properties />
+          <option name="timeStamp" value="219" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/bsb/leetcode/T1053.java</url>
+          <line>52</line>
+          <properties />
+          <option name="timeStamp" value="220" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/bsb/leetcode/T1053.java</url>
+          <line>35</line>
+          <properties />
+          <option name="timeStamp" value="221" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/bsb/leetcode/T1111.java</url>
+          <line>14</line>
+          <properties />
+          <option name="timeStamp" value="222" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/bsb/leetcode/T1111.java</url>
+          <line>31</line>
+          <properties />
+          <option name="timeStamp" value="223" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/bsb/leetcode/T783.java</url>
+          <line>21</line>
+          <properties />
+          <option name="timeStamp" value="230" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/bsb/leetcode/T783.java</url>
+          <line>29</line>
+          <properties />
+          <option name="timeStamp" value="231" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/bsb/leetcode/contest/twentith_double/T5323.java</url>
+          <line>34</line>
+          <properties />
+          <option name="timeStamp" value="233" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/bsb/leetcode/contest/twentith_double/T5325.java</url>
+          <line>20</line>
+          <properties />
+          <option name="timeStamp" value="236" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/bsb/leetcode/contest/twentith_double/T5325.java</url>
+          <line>23</line>
+          <properties />
+          <option name="timeStamp" value="237" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/bsb/leetcode/contest/twentith_double/T5326.java</url>
+          <line>18</line>
+          <properties />
+          <option name="timeStamp" value="239" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/bsb/leetcode/contest/twentith_double/T5326.java</url>
+          <line>26</line>
+          <properties />
+          <option name="timeStamp" value="240" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/bsb/leetcode/contest/twentith_double/T5325.java</url>
+          <line>30</line>
+          <properties />
+          <option name="timeStamp" value="241" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/bsb/leetcode/contest/twentith_double/T5325.java</url>
+          <line>48</line>
+          <properties />
+          <option name="timeStamp" value="242" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/bsb/leetcode/T309.java</url>
+          <line>15</line>
+          <properties />
+          <option name="timeStamp" value="243" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/bsb/leetcode/T309.java</url>
+          <line>29</line>
+          <properties />
+          <option name="timeStamp" value="244" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/bsb/leetcode/T576.java</url>
+          <line>16</line>
+          <properties />
+          <option name="timeStamp" value="251" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/bsb/leetcode/T743.java</url>
+          <line>94</line>
+          <properties />
+          <option name="timeStamp" value="252" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/bsb/leetcode/T743.java</url>
+          <line>80</line>
+          <properties />
+          <option name="timeStamp" value="255" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/bsb/leetcode/T743.java</url>
+          <line>98</line>
+          <properties />
+          <option name="timeStamp" value="258" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/bsb/leetcode/T743.java</url>
+          <line>110</line>
+          <properties />
+          <option name="timeStamp" value="260" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/bsb/leetcode/T756.java</url>
+          <line>31</line>
+          <properties />
+          <option name="timeStamp" value="261" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/bsb/leetcode/T756.java</url>
+          <line>41</line>
+          <properties />
+          <option name="timeStamp" value="263" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/bsb/leetcode/tag/bytedane/string/T3.java</url>
+          <line>17</line>
+          <properties />
+          <option name="timeStamp" value="264" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/bsb/leetcode/tag/bytedane/string/T5.java</url>
+          <line>12</line>
+          <properties />
+          <option name="timeStamp" value="266" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/bsb/leetcode/T300.java</url>
+          <line>34</line>
+          <properties />
+          <option name="timeStamp" value="267" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/bsb/leetcode/T300.java</url>
+          <line>46</line>
+          <properties />
+          <option name="timeStamp" value="268" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/bsb/leetcode/T78.java</url>
+          <line>30</line>
+          <properties />
+          <option name="timeStamp" value="269" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/bsb/leetcode/T78.java</url>
+          <line>41</line>
+          <properties />
+          <option name="timeStamp" value="270" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/bsb/leetcode/T89.java</url>
+          <line>35</line>
+          <properties />
+          <option name="timeStamp" value="271" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/bsb/leetcode/T784.java</url>
+          <line>17</line>
+          <properties />
+          <option name="timeStamp" value="272" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/bsb/leetcode/T996.java</url>
+          <line>23</line>
+          <properties />
+          <option name="timeStamp" value="276" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/bsb/leetcode/T1079.java</url>
+          <line>14</line>
+          <properties />
+          <option name="timeStamp" value="277" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/bsb/leetcode/T1079.java</url>
+          <line>19</line>
+          <properties />
+          <option name="timeStamp" value="278" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/bsb/leetcode/T1079.java</url>
+          <line>38</line>
+          <properties />
+          <option name="timeStamp" value="280" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/bsb/leetcode/T1239.java</url>
+          <line>51</line>
+          <properties />
+          <option name="timeStamp" value="281" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/bsb/leetcode/T1239.java</url>
+          <line>60</line>
+          <properties />
+          <option name="timeStamp" value="282" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/bsb/leetcode/T924.java</url>
+          <line>168</line>
+          <properties />
+          <option name="timeStamp" value="284" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/bsb/leetcode/T924.java</url>
+          <line>147</line>
+          <properties />
+          <option name="timeStamp" value="285" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/bsb/leetcode/T924.java</url>
+          <line>134</line>
+          <properties />
+          <option name="timeStamp" value="286" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/bsb/leetcode/T947.java</url>
+          <line>42</line>
+          <properties />
+          <option name="timeStamp" value="287" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/bsb/leetcode/T947.java</url>
+          <line>55</line>
+          <properties />
+          <option name="timeStamp" value="288" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/bsb/leetcode/contest/may_first/T5347.java</url>
+          <line>44</line>
+          <properties />
+          <option name="timeStamp" value="289" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/bsb/leetcode/contest/may_first/T5347.java</url>
+          <line>23</line>
+          <properties />
+          <option name="timeStamp" value="290" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/bsb/leetcode/interview/T1001.java</url>
+          <line>17</line>
+          <properties />
+          <option name="timeStamp" value="293" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/bsb/leetcode/interview/T1001.java</url>
+          <line>21</line>
+          <properties />
+          <option name="timeStamp" value="294" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/bsb/leetcode/interview/T1001.java</url>
+          <line>29</line>
+          <properties />
+          <option name="timeStamp" value="295" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/bsb/leetcode/vip/bytedance/T11.java</url>
+          <line>9</line>
+          <properties />
+          <option name="timeStamp" value="296" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/bsb/leetcode/vip/bytedance/T11.java</url>
+          <line>17</line>
+          <properties />
+          <option name="timeStamp" value="297" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/bsb/leetcode/T1103.java</url>
+          <line>10</line>
+          <properties />
+          <option name="timeStamp" value="298" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/bsb/leetcode/T1103.java</url>
+          <line>25</line>
+          <properties />
+          <option name="timeStamp" value="299" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/bsb/leetcode/vip/bytedance/T20.java</url>
+          <line>12</line>
+          <properties />
+          <option name="timeStamp" value="301" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/bsb/leetcode/vip/bytedance/T56.java</url>
+          <line>39</line>
+          <properties />
+          <option name="timeStamp" value="302" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/bsb/leetcode/vip/bytedance/T56.java</url>
+          <line>26</line>
+          <properties />
+          <option name="timeStamp" value="304" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/bsb/leetcode/vip/bytedance/T215.java</url>
+          <line>16</line>
+          <properties />
+          <option name="timeStamp" value="305" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/bsb/leetcode/vip/bytedance/T215.java</url>
+          <line>29</line>
+          <properties />
+          <option name="timeStamp" value="306" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/bsb/leetcode/interview/T57.java</url>
+          <line>47</line>
+          <properties />
+          <option name="timeStamp" value="307" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/bsb/leetcode/vip/bytedance/T46.java</url>
+          <line>22</line>
+          <properties />
+          <option name="timeStamp" value="308" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/bsb/leetcode/vip/bytedance/T46.java</url>
+          <line>31</line>
+          <properties />
+          <option name="timeStamp" value="310" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/bsb/leetcode/vip/bytedance/T440.java</url>
+          <line>14</line>
+          <properties />
+          <option name="timeStamp" value="311" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/bsb/leetcode/vip/bytedance/T440.java</url>
+          <line>49</line>
+          <properties />
+          <option name="timeStamp" value="312" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/bsb/leetcode/vip/bytedance/T9.java</url>
+          <line>10</line>
+          <properties />
+          <option name="timeStamp" value="313" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/bsb/leetcode/vip/bytedance/T9.java</url>
+          <line>19</line>
+          <properties />
+          <option name="timeStamp" value="315" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/bsb/leetcode/vip/bytedance/T31.java</url>
+          <line>14</line>
+          <properties />
+          <option name="timeStamp" value="316" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/bsb/leetcode/vip/bytedance/T31.java</url>
+          <line>33</line>
+          <properties />
+          <option name="timeStamp" value="317" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/bsb/leetcode/vip/bytedance/T94.java</url>
+          <line>54</line>
+          <properties />
+          <option name="timeStamp" value="320" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/bsb/leetcode/vip/bytedance/T144.java</url>
+          <line>28</line>
+          <properties />
+          <option name="timeStamp" value="321" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/bsb/leetcode/vip/bytedance/T144.java</url>
+          <line>39</line>
+          <properties />
+          <option name="timeStamp" value="322" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/bsb/leetcode/vip/bytedance/T322.java</url>
+          <line>21</line>
+          <properties />
+          <option name="timeStamp" value="327" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/bsb/leetcode/vip/bytedance/T322.java</url>
+          <line>25</line>
+          <properties />
+          <option name="timeStamp" value="328" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/bsb/leetcode/vip/bytedance/T322.java</url>
+          <line>35</line>
+          <properties />
+          <option name="timeStamp" value="329" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/bsb/leetcode/vip/bytedance/T54.java</url>
+          <line>32</line>
+          <properties />
+          <option name="timeStamp" value="330" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/bsb/leetcode/contest/twenty_first_double/T5338.java</url>
+          <line>87</line>
+          <properties />
+          <option name="timeStamp" value="335" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/bsb/leetcode/contest/twenty_first_double/T5337.java</url>
+          <line>14</line>
+          <properties />
+          <option name="timeStamp" value="336" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/bsb/leetcode/contest/twenty_first_double/T5337.java</url>
+          <line>49</line>
+          <properties />
+          <option name="timeStamp" value="337" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/bsb/leetcode/contest/twenty_first_double/T5338.java</url>
+          <line>41</line>
+          <properties />
+          <option name="timeStamp" value="339" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/bsb/leetcode/contest/may_second/T5352.java</url>
+          <line>18</line>
+          <properties />
+          <option name="timeStamp" value="342" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/bsb/leetcode/contest/may_second/T5354.java</url>
+          <line>11</line>
+          <properties />
+          <option name="timeStamp" value="343" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/bsb/leetcode/contest/may_second/T5354.java</url>
+          <line>23</line>
+          <properties />
+          <option name="timeStamp" value="344" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/bsb/leetcode/T1013.java</url>
+          <line>11</line>
+          <properties />
+          <option name="timeStamp" value="345" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/bsb/leetcode/T1013.java</url>
+          <line>24</line>
+          <properties />
+          <option name="timeStamp" value="346" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/bsb/leetcode/vip/bytedance/T143.java</url>
+          <line>41</line>
+          <properties />
+          <option name="timeStamp" value="347" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/bsb/leetcode/vip/bytedance/T143.java</url>
+          <line>24</line>
+          <properties />
+          <option name="timeStamp" value="348" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/bsb/leetcode/vip/bytedance/T143.java</url>
+          <line>73</line>
+          <properties />
+          <option name="timeStamp" value="356" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/bsb/leetcode/vip/bytedance/T22.java</url>
+          <line>13</line>
+          <properties />
+          <option name="timeStamp" value="358" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/bsb/leetcode/vip/bytedance/T22.java</url>
+          <line>17</line>
+          <properties />
+          <option name="timeStamp" value="359" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/bsb/leetcode/vip/bytedance/T22.java</url>
+          <line>26</line>
+          <properties />
+          <option name="timeStamp" value="361" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/bsb/leetcode/T1071.java</url>
+          <line>7</line>
+          <properties />
+          <option name="timeStamp" value="362" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/bsb/leetcode/T1071.java</url>
+          <line>8</line>
+          <properties />
+          <option name="timeStamp" value="363" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/bsb/leetcode/vip/bytedance/T1160.java</url>
+          <line>28</line>
+          <properties />
+          <option name="timeStamp" value="365" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/bsb/leetcode/vip/bytedance/T409.java</url>
+          <line>12</line>
+          <properties />
+          <option name="timeStamp" value="366" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/bsb/leetcode/vip/bytedance/T124.java</url>
+          <line>22</line>
+          <properties />
+          <option name="timeStamp" value="367" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/bsb/leetcode/vip/bytedance/T124.java</url>
+          <line>36</line>
+          <properties />
+          <option name="timeStamp" value="368" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/bsb/meituan/test/T4.java</url>
+          <line>34</line>
+          <properties />
+          <option name="timeStamp" value="373" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/bsb/meituan/test/T4.java</url>
+          <line>42</line>
+          <properties />
+          <option name="timeStamp" value="374" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/bsb/meituan/test/T4.java</url>
+          <line>63</line>
+          <properties />
+          <option name="timeStamp" value="375" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/bsb/meituan/spring/T2.java</url>
+          <line>24</line>
+          <properties />
+          <option name="timeStamp" value="380" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/bsb/meituan/spring/T2.java</url>
+          <line>44</line>
+          <properties />
+          <option name="timeStamp" value="381" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/bsb/meituan/spring/T4.java</url>
+          <line>66</line>
+          <properties />
+          <option name="timeStamp" value="382" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/bsb/meituan/prepare/QuickSort.java</url>
+          <line>11</line>
+          <properties />
+          <option name="timeStamp" value="383" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/bsb/meituan/prepare/QuickSort.java</url>
+          <line>28</line>
+          <properties />
+          <option name="timeStamp" value="384" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/com/bsb/leetcode/T1079.java</url>
+          <line>22</line>
+          <properties class="com.bsb.leetcode.T1079" method="dfs">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="279" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/com/bsb/leetcode/vip/bytedance/T22.java</url>
+          <line>20</line>
+          <properties class="com.bsb.leetcode.vip.bytedance.T22" method="helper">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="360" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/com/bsb/leetcode/vip/bytedance/T124.java</url>
+          <line>27</line>
+          <properties class="com.bsb.leetcode.vip.bytedance.T124" method="helper">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="369" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/com/bsb/meituan/spring/T1.java</url>
+          <line>11</line>
+          <properties class="com.bsb.meituan.spring.T1" method="main">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="379" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/src.zip!/java/text/SimpleDateFormat.java">
+    <entry file="file://$PROJECT_DIR$/src/com/bsb/leetcode/vip/bytedance/T365.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="12048">
-          <caret line="554" column="11" selection-start-line="554" selection-start-column="11" selection-end-line="554" selection-end-column="11" />
+        <state relative-caret-position="56">
+          <caret line="2" selection-start-line="2" selection-end-line="2" selection-end-column="19" />
         </state>
       </provider>
     </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/src.zip!/java/util/NavigableMap.java">
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/src.zip!/java/util/List.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1464">
-          <caret line="94" column="17" selection-start-line="94" selection-start-column="17" selection-end-line="94" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/bsb/meituan/T2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="6" column="15" selection-start-line="6" selection-start-column="15" selection-end-line="6" selection-end-column="15" />
+        <state relative-caret-position="5236">
+          <caret line="210" column="12" selection-start-line="210" selection-start-column="12" selection-end-line="210" selection-end-column="12" />
         </state>
       </provider>
     </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/src.zip!/java/util/ArrayList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="12984">
-          <caret line="579" column="19" selection-start-line="579" selection-start-column="19" selection-end-line="579" selection-end-column="19" />
+        <state relative-caret-position="10388">
+          <caret line="407" column="19" selection-start-line="407" selection-start-column="19" selection-end-line="407" selection-end-column="19" />
         </state>
       </provider>
     </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/jre/lib/rt.jar!/sun/nio/ch/Interruptible.class">
+    <entry file="file://$PROJECT_DIR$/src/com/bsb/meituan/test/T4.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="9" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
+        <state relative-caret-position="1652">
+          <caret line="59" column="34" selection-start-line="59" selection-start-column="34" selection-end-line="59" selection-end-column="34" />
         </state>
       </provider>
     </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/src.zip!/java/util/TreeMap.java">
+    <entry file="file://$PROJECT_DIR$/src/com/bsb/leetcode/T802.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-917">
-          <caret line="295" column="22" lean-forward="true" selection-start-line="295" selection-start-column="22" selection-end-line="295" selection-end-column="22" />
+        <state relative-caret-position="980">
+          <caret line="38" column="7" selection-start-line="38" selection-start-column="7" selection-end-line="38" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/bsb/leetcode/vip/bytedance/T945.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="11" column="8" selection-start-line="11" selection-start-column="8" selection-end-line="19" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/bsb/leetcode/vip/bytedance/T206.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-887">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/bsb/meituan/prepare/T206.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="569">
+          <caret line="34" column="8" lean-forward="true" selection-start-line="34" selection-start-column="8" selection-end-line="41" selection-end-column="17" />
           <folding>
-            <element signature="e#11206#11207#0" expanded="true" />
-            <element signature="e#11239#11240#0" expanded="true" />
-            <element signature="e#11334#11335#0" expanded="true" />
-            <element signature="e#11377#11378#0" expanded="true" />
-            <element signature="e#11471#11472#0" expanded="true" />
-            <element signature="e#11513#11514#0" expanded="true" />
+            <element signature="e#167#168#0" expanded="true" />
+            <element signature="e#190#191#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/src.zip!/java/text/DecimalFormat.java">
+    <entry file="file://$PROJECT_DIR$/src/com/bsb/meituan/prepare/T141.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-444">
-          <caret line="398" column="11" selection-start-line="398" selection-start-column="11" selection-end-line="398" selection-end-column="11" />
+        <state relative-caret-position="252">
+          <caret line="9" column="8" selection-start-line="9" selection-start-column="8" selection-end-line="16" selection-end-column="20" />
         </state>
       </provider>
     </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/src.zip!/java/lang/ThreadLocal.java">
+    <entry file="file://$PROJECT_DIR$/src/com/bsb/leetcode/vip/bytedance/T23.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="6792">
-          <caret line="323" column="7" selection-start-line="323" selection-start-column="7" selection-end-line="323" selection-end-column="7" />
+        <state relative-caret-position="-138">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/bsb/meituan/prepare/T23.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="485">
+          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/bsb/leetcode/T25.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/bsb/leetcode/vip/bytedance/T25.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-40">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/bsb/meituan/prepare/T25.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="15" column="12" selection-start-line="15" selection-start-column="12" selection-end-line="16" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/src.zip!/java/util/stream/Stream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="301">
+          <caret line="975" column="38" selection-start-line="975" selection-start-column="36" selection-end-line="975" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/src.zip!/java/util/function/Consumer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="318">
+          <caret line="41" column="17" selection-start-line="41" selection-start-column="17" selection-end-line="41" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/src.zip!/java/util/Arrays.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="318">
+          <caret line="3798" column="30" selection-start-line="3798" selection-start-column="30" selection-end-line="3798" selection-end-column="30" />
           <folding>
-            <element signature="e#8486#8487#0" expanded="true" />
-            <element signature="e#8538#8539#0" expanded="true" />
-            <element signature="e#11620#11621#0" expanded="true" />
-            <element signature="e#11678#11679#0" expanded="true" />
+            <element signature="e#177013#177014#0" expanded="true" />
+            <element signature="e#177054#177055#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/bsb/didi/T1.java">
+    <entry file="file://$PROJECT_DIR$/src/com/bsb/leetcode/vip/bytedance/T46.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="648">
-          <caret line="27" selection-start-line="27" selection-end-line="27" />
+        <state relative-caret-position="-75">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/bsb/meituan/prepare/T46.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="12" column="4" lean-forward="true" selection-start-line="12" selection-start-column="4" selection-end-line="41" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/bsb/didi/T3.java">
+    <entry file="file://$PROJECT_DIR$/src/com/bsb/leetcode/vip/bytedance/T876.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1656">
-          <caret line="71" column="21" selection-start-line="71" selection-start-column="21" selection-end-line="71" selection-end-column="21" />
+        <state relative-caret-position="586">
+          <caret line="22" column="8" selection-start-line="22" selection-start-column="8" selection-end-line="22" selection-end-column="45" />
+          <folding>
+            <element signature="e#173#174#0" expanded="true" />
+            <element signature="e#196#197#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/bsb/meituan/prepare/SelectSort.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/bsb/meituan/prepare/BubbleSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="17" column="30" selection-start-line="17" selection-start-column="30" selection-end-line="17" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/bsb/meituan/prepare/InsertSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="11" column="8" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/bsb/leetcode/T567.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1568">
+          <caret line="57" column="9" selection-start-line="57" selection-start-column="9" selection-end-line="57" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/bsb/meituan/prepare/T145.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="812">
+          <caret line="34" column="32" selection-start-line="34" selection-start-column="32" selection-end-line="34" selection-end-column="32" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/src.zip!/java/lang/Integer.java">
+    <entry file="file://$PROJECT_DIR$/src/com/bsb/leetcode/T207.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18000">
-          <caret line="783" selection-start-line="783" selection-end-line="783" />
+        <state relative-caret-position="1372">
+          <caret line="50" column="14" selection-start-line="50" selection-start-column="14" selection-end-line="50" selection-end-column="14" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/bsb/tencent/T1.java">
+    <entry file="file://$PROJECT_DIR$/src/com/bsb/leetcode/T123.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1824">
-          <caret line="76" column="12" selection-start-line="76" selection-start-column="12" selection-end-line="76" selection-end-column="12" />
+        <state relative-caret-position="224">
+          <caret line="8" column="7" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
         </state>
       </provider>
     </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/src.zip!/java/lang/StringBuilder.java">
+    <entry file="file://$PROJECT_DIR$/src/com/bsb/leetcode/T121.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2544">
-          <caret line="135" column="18" selection-start-line="135" selection-start-column="18" selection-end-line="135" selection-end-column="18" />
+        <state relative-caret-position="224">
+          <caret line="8" column="7" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/bsb/meituan/spring/T3.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="952">
+          <caret line="35" column="54" selection-start-line="35" selection-start-column="54" selection-end-line="35" selection-end-column="54" />
           <folding>
-            <element signature="e#10229#10230#0" expanded="true" />
-            <element signature="e#10270#10271#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/src.zip!/java/lang/AbstractStringBuilder.java">
+    <entry file="file://$PROJECT_DIR$/src/com/bsb/meituan/spring/T4.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="11664">
-          <caret line="518" column="21" selection-start-line="518" selection-start-column="21" selection-end-line="518" selection-end-column="21" />
+        <state relative-caret-position="672">
+          <caret line="24" column="34" selection-start-line="24" selection-start-column="34" selection-end-line="24" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/bsb/meituan/spring/T5.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1428">
+          <caret line="52" column="69" selection-start-line="52" selection-start-column="69" selection-end-line="52" selection-end-column="69" />
           <folding>
-            <element signature="e#52537#52538#0" expanded="true" />
-            <element signature="e#52575#52576#0" expanded="true" />
-            <element signature="e#53351#53352#0" expanded="true" />
-            <element signature="e#53421#53422#0" expanded="true" />
+            <element signature="e#1536#1537#0" expanded="true" />
+            <element signature="e#1614#1615#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/src.zip!/java/util/LinkedHashMap.java">
+    <entry file="file://$PROJECT_DIR$/src/com/bsb/leetcode/T60.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5232">
-          <caret line="246" selection-start-line="246" selection-end-line="246" />
+        <state relative-caret-position="224">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/bsb/bytedance/T1.java">
+    <entry file="file://$PROJECT_DIR$/src/com/bsb/leetcode/T235.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
-          <folding>
-            <element signature="e#159#160#0" expanded="true" />
-            <element signature="e#183#184#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="644">
+          <caret line="23" column="23" selection-start-line="23" selection-start-column="23" selection-end-line="23" selection-end-column="23" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/bsb/didi/T2.java">
+    <entry file="file://$PROJECT_DIR$/src/com/bsb/leetcode/interview/T1716.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="600">
-          <caret line="25" column="39" selection-start-line="25" selection-start-column="39" selection-end-line="25" selection-end-column="39" />
+        <state relative-caret-position="392">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
         </state>
       </provider>
     </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/src.zip!/java/util/concurrent/CopyOnWriteArrayList.java">
+    <entry file="file://$PROJECT_DIR$/src/com/bsb/leetcode/T198.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="8400">
-          <caret line="417" column="20" selection-start-line="417" selection-start-column="20" selection-end-line="417" selection-end-column="20" />
+        <state relative-caret-position="-46">
+          <caret line="8" column="7" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
         </state>
       </provider>
     </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/src.zip!/java/util/concurrent/locks/LockSupport.java">
+    <entry file="file://$PROJECT_DIR$/src/com/bsb/leetcode/vip/bytedance/T445.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3072">
-          <caret line="161" column="6" selection-start-line="161" selection-start-column="6" selection-end-line="161" selection-end-column="6" />
+        <state relative-caret-position="821">
+          <caret line="42" column="24" lean-forward="true" selection-start-line="12" selection-start-column="8" selection-end-line="42" selection-end-column="24" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/bsb/bytedance/T2.java">
+    <entry file="file://$PROJECT_DIR$/src/com/bsb/leetcode/vip/bytedance/T300.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        <state relative-caret-position="233">
+          <caret line="11" column="8" selection-start-line="11" selection-start-column="8" selection-end-line="29" selection-end-column="19" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/bsb/bytedance/string/T1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="18" column="43" selection-start-line="18" selection-start-column="43" selection-end-line="18" selection-end-column="43" />
-          <folding>
-            <element signature="e#1051#1052#0" expanded="true" />
-            <element signature="e#1131#1132#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/src.zip!/java/util/AbstractSet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3456">
-          <caret line="167" column="19" selection-start-line="167" selection-start-column="19" selection-end-line="167" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/jre/lib/ext/dnsns.jar!/sun/net/spi/nameservice/dns/DNSNameServiceDescriptor.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="10" column="19" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/jre/lib/ext/dnsns.jar!/sun/net/spi/nameservice/dns/DNSNameService.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="31" column="19" selection-start-line="31" selection-start-column="19" selection-end-line="31" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/jre/lib/rt.jar!/sun/misc/Unsafe.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="7392">
-          <caret line="353" column="23" selection-start-line="353" selection-start-column="23" selection-end-line="353" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/bsb/tencent/T3.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="18" selection-start-line="18" selection-end-line="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/bsb/tencent/T2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="48">
-          <caret line="2" selection-start-line="2" selection-end-line="62" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/bsb/leetcode/T1114.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/bsb/bytedance/string/T2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="13" column="21" selection-start-line="13" selection-start-column="21" selection-end-line="13" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/bsb/leetcode/Tx.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="14" column="37" selection-start-line="14" selection-start-column="37" selection-end-line="14" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/bsb/leetcode/T16.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="576">
-          <caret line="24" column="42" selection-start-line="24" selection-start-column="42" selection-end-line="24" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/src.zip!/java/util/Vector.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4104">
-          <caret line="205" column="40" selection-start-line="205" selection-start-column="40" selection-end-line="205" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/bsb/leetcode/T24.java">
+    <entry file="file://$PROJECT_DIR$/src/com/bsb/leetcode/T236.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="504">
-          <caret line="21" column="20" selection-start-line="21" selection-start-column="20" selection-end-line="21" selection-end-column="20" />
+          <caret line="18" column="64" lean-forward="true" selection-start-line="18" selection-start-column="64" selection-end-line="18" selection-end-column="64" />
         </state>
       </provider>
     </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/src.zip!/java/lang/Character.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="808">
-          <caret line="6632" column="22" selection-start-line="6632" selection-start-column="22" selection-end-line="6632" selection-end-column="22" />
-          <folding>
-            <element signature="e#238047#238048#0" expanded="true" />
-            <element signature="e#238094#238095#0" expanded="true" />
-            <element signature="e#239612#239613#0" expanded="true" />
-            <element signature="e#239689#239690#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/bsb/leetcode/T17.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="21" selection-start-line="21" selection-end-line="21" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#856#857#0" expanded="true" />
-            <element signature="e#906#907#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/src.zip!/java/util/LinkedList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15408">
-          <caret line="684" column="23" selection-start-line="684" selection-start-column="23" selection-end-line="684" selection-end-column="23" />
-          <folding>
-            <element signature="e#20484#20485#0" expanded="true" />
-            <element signature="e#20520#20521#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/bsb/sword/DuplicateArrayMember.java">
+    <entry file="file://$PROJECT_DIR$/src/com/bsb/meituan/prepare/Test.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="144">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <caret line="12" column="37" selection-start-line="12" selection-start-column="37" selection-end-line="12" selection-end-column="37" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/bsb/leetcode/T160.java">
+    <entry file="file://$PROJECT_DIR$/src/com/bsb/leetcode/vip/bytedance/T235.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="6" column="5" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
+        <state relative-caret-position="392">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/bsb/leetcode/T19.java">
+    <entry file="file://$PROJECT_DIR$/src/com/bsb/meituan/prepare/T236.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="17" column="23" selection-start-line="17" selection-start-column="23" selection-end-line="17" selection-end-column="23" />
+        <state relative-caret-position="653">
+          <caret line="25" column="25" lean-forward="true" selection-start-line="25" selection-start-column="25" selection-end-line="25" selection-end-column="25" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/bsb/leetcode/T206.java">
+    <entry file="file://$PROJECT_DIR$/src/com/bsb/leetcode/vip/bytedance/T236.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        <state relative-caret-position="737">
+          <caret line="37" column="1" lean-forward="true" selection-start-line="37" selection-start-column="1" selection-end-line="37" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/bsb/leetcode/T208.java">
+    <entry file="file://$PROJECT_DIR$/src/com/bsb/leetcode/vip/bytedance/T105.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        <state relative-caret-position="252">
+          <caret line="9" column="4" selection-start-line="9" selection-start-column="4" selection-end-line="36" selection-end-column="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/bsb/leetcode/T15.java">
+    <entry file="file://$PROJECT_DIR$/src/com/bsb/leetcode/T105.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/bsb/leetcode/T5.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1416">
-          <caret line="59" column="52" selection-start-line="59" selection-start-column="52" selection-end-line="59" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/bsb/leetcode/T6.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="20" column="25" selection-start-line="20" selection-start-column="25" selection-end-line="20" selection-end-column="25" />
-          <folding>
-            <element signature="e#1017#1018#0" expanded="true" />
-            <element signature="e#1058#1059#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/bsb/leetcode/T86.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="720">
-          <caret line="30" selection-start-line="30" selection-end-line="30" />
+        <state relative-caret-position="700">
+          <caret line="25" column="13" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/src.zip!/java/lang/String.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="14016">
-          <caret line="634" column="16" selection-start-line="634" selection-start-column="16" selection-end-line="634" selection-end-column="16" />
-          <folding>
-            <element signature="e#23072#23073#0" expanded="true" />
-            <element signature="e#23112#23113#0" expanded="true" />
-            <element signature="e#58481#58482#0" expanded="true" />
-            <element signature="e#58518#58519#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="25788">
+          <caret line="976" column="31" selection-start-line="976" selection-start-column="31" selection-end-line="976" selection-end-column="31" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/bsb/leetcode/topic/recursion/T1.java">
+    <entry file="file://$PROJECT_DIR$/src/com/bsb/leetcode/T206.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="22" column="28" selection-start-line="22" selection-start-column="28" selection-end-line="22" selection-end-column="28" />
-          <folding>
-            <element signature="e#164#165#0" expanded="true" />
-            <element signature="e#192#193#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="672">
+          <caret line="24" column="8" selection-start-line="24" selection-start-column="8" selection-end-line="24" selection-end-column="8" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/bsb/leetcode/T199.java">
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/src.zip!/java/lang/StringBuilder.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="528">
-          <caret line="26" column="55" selection-start-line="26" selection-start-column="55" selection-end-line="26" selection-end-column="55" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="3080">
+          <caret line="139" column="7" selection-start-line="139" selection-start-column="7" selection-end-line="139" selection-end-column="7" />
         </state>
       </provider>
     </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/src.zip!/java/lang/ref/WeakReference.java">
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/src.zip!/java/lang/AbstractStringBuilder.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="576">
-          <caret line="47" column="13" selection-start-line="47" selection-start-column="13" selection-end-line="47" selection-end-column="13" />
+        <state relative-caret-position="11508">
+          <caret line="443" column="33" selection-start-line="443" selection-start-column="33" selection-end-line="443" selection-end-column="33" />
         </state>
       </provider>
     </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/src.zip!/java/lang/Thread.java">
+    <entry file="file://$PROJECT_DIR$/src/com/bsb/meituan/prepare/QuickSort.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3216">
-          <caret line="171" column="63" selection-start-line="171" selection-start-column="63" selection-end-line="171" selection-end-column="63" />
-          <folding>
-            <element signature="e#36709#36710#0" expanded="true" />
-            <element signature="e#36767#36768#0" expanded="true" />
-            <element signature="e#37304#37305#0" expanded="true" />
-            <element signature="e#37347#37348#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="246">
+          <caret line="15" column="46" selection-start-line="15" selection-start-column="46" selection-end-line="15" selection-end-column="46" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/bsb/leetcode/T18.java">
+    <entry file="file://$PROJECT_DIR$/src/com/bsb/leetcode/T1162.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="141">
-          <caret line="15" column="26" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="26" />
+        <state relative-caret-position="168">
+          <caret line="12" column="8" selection-start-line="12" selection-start-column="8" selection-end-line="60" selection-end-column="44" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/bsb/leetcode/vip/bytedance/T55.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="10" column="8" lean-forward="true" selection-start-line="10" selection-start-column="8" selection-end-line="22" selection-end-column="24" />
         </state>
       </provider>
     </entry>

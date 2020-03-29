@@ -2,6 +2,20 @@
   <dictionary name="zengshuaizhi">
     <words>
       <w>abcdefg</w>
+      <w>bytedance</w>
+      <w>golang</w>
+      <w>intvs</w>
+      <w>leetcode</w>
+      <w>logn</w>
+      <w>meituan</w>
+      <w>nlogk</w>
+      <w>nlogn</w>
+      <w>postorder</w>
+      <w>preorder</w>
+      <w>shuang</w>
+      <w>stackoverflow</w>
+      <w>strs</w>
+      <w>topk</w>
       <w>zengshuaizhi</w>
     </words>
   </dictionary>
