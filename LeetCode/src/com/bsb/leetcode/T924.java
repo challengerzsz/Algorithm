@@ -145,6 +145,11 @@ public class T924 {
             }
         }
 
+        // 从并查集中找恶意节点是否可能存在于一个连同分量中
+        // 如果map<key, -1>则证明当前这个key的连同分量至少有2个恶意节点
+        // important : 如果map中的某个恶意节点在并查集中的root在map中的值不为-1  则证明该连通分量最多存在一个恶意节点
+        // 统计上面important条目的连同分量 判断只存在一个恶意节点的连同分量 哪个的节点数多 那么删掉某个多顶点的连同分量中的恶意节点
+        // 就能保存下来最多未被感染的节点
         Map<Integer, Integer> map = new HashMap<>();
         for (int index : initial) {
             int root = unionSet.find(index);
@@ -170,8 +175,9 @@ public class T924 {
     }
 
     public static void main(String[] args) {
-        int[][] graph = {{1, 1, 0}, {1, 1, 0}, {0, 0, 1}};
-        int[] initial = {0, 1};
-        new T924().minMalwareSpread2(graph, initial);
+        int[][] graph = new int[][]{{1, 1, 0, 0, 0, 0, 0, 0, 0, 0}, {1, 1, 0, 0, 0, 0, 0, 0, 0, 1}, {0, 0, 1, 0, 1, 0, 0, 0, 0, 1}, {0, 0, 0, 1, 0, 0, 0, 0, 0, 1}, {0, 0, 1, 0, 1, 0, 1, 0, 0, 1}, {0, 0, 0, 0, 0, 1, 1, 0, 0, 0}, {0, 0, 0, 0, 1, 1, 1, 0, 0, 1}, {0, 0, 0, 0, 0, 0, 0, 1, 1, 0}, {0, 0, 0, 0, 0, 0, 0, 1, 1, 0}, {0, 1, 1, 1, 1, 0, 1, 0, 0, 1}};
+        int[] badNode = new int[]{9, 0, 2};
+
+        new T924().minMalwareSpread(graph, badNode);
     }
 }
