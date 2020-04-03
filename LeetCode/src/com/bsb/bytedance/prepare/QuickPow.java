@@ -1,4 +1,4 @@
-package com.bsb.bytedance.prepare.stock;
+package com.bsb.bytedance.prepare;
 
 /**
  * @author : zengshuaizhi
