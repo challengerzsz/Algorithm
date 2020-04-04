@@ -33,16 +33,16 @@ public class T137 {
     // 然后减去之前所有的数字和这样得到的差就是只出现过一次的那个数字的2倍。
     public int singleNumber2(int[] nums) {
         HashSet<Integer> set = new HashSet<>();
-        int sum = 0;
+        long sum = 0;
         for (int i = 0; i < nums.length; i++) {
             set.add(nums[i]);
             sum += nums[i];
         }
-        int mul = 0;
+        long mul = 0;
         for (int n : set) {
             mul += n;
         }
         mul = mul * 3;
-        return (mul - sum) / 2;
+        return (int) ((mul - sum) / 2);
     }
 }
