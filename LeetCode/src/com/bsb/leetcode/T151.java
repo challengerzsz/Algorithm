@@ -7,7 +7,7 @@ package com.bsb.leetcode;
 public class T151 {
 
     public String reverseWords(String s) {
-        if (s == null || s.trim().length() == 0) return null;
+        if (s == null || s.trim().length() == 0) return "";
         int i = 0, j = s.length() - 1;
         while (i < s.length() - 1) {
             if (s.charAt(i) == ' ') i++;
