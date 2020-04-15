@@ -1,6 +1,7 @@
 package com.bsb.leetcode.vip.bytedance;
 
 import java.util.LinkedList;
+import java.util.concurrent.Semaphore;
 
 /**
  * @author : zengshuaizhi

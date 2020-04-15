@@ -34,4 +34,23 @@ public class T75 {
             } else curr++; // 遇到1则不变 因为1的颜色就是在数组中间
         }
     }
+
+    public void sortColors2(int[] nums) {
+        int left = 0, right = nums.length - 1;
+        for (int index = 0; index <= right; index++) {
+            System.out.println(index);
+            if (nums[index] == 0) swap(nums, left++, index);
+            else if (nums[index] == 2) swap(nums, right--, index--);
+        }
+    }
+
+    private void swap(int[] a, int l, int r) {
+        int temp = a[l];
+        a[l] = a[r];
+        a[r] = temp;
+    }
+
+    public static void main(String[] args) {
+        new T75().sortColors2(new int[]{1, 2, 0});
+    }
 }
