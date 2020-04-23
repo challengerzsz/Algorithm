@@ -8,8 +8,11 @@ import java.util.Arrays;
  */
 public class QuickSort {
 
+    static int count = 0;
     private void quickSort(int[] a, int start, int end) {
         if (start > end) return;
+
+        count++;
         int left = start, right = end;
 
         while (left != right) {
@@ -39,5 +42,6 @@ public class QuickSort {
         int[] a = new int[]{5, 4, 3, 2, 1};
         new QuickSort().quickSort(a, 0, 4);
         Arrays.stream(a).forEach(System.out::println);
+        System.out.println(count);
     }
 }
